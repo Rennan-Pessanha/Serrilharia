@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
 height: 4800px;
-width: 100%;
+width: 110%;
 background-color: #000000;
+padding-right: 20px;
+padding-left: 20px;
 
 @media (max-width: 1188px) {
     height: 12700px;
@@ -12,6 +14,10 @@ background-color: #000000;
 
 @media (max-width: 768px) {
     height: 12700px;
+}
+
+@media (max-width: 320px) {
+  height: 12900px;
 }
 `
 

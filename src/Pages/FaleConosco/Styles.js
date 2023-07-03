@@ -2,12 +2,18 @@ import { styled } from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 100%;
+  width: 110%;
   height: 115vh;
   background-color: #242424;
+  padding-right: 20px;
+  padding-left: 20px;
+  overflow-y: hidden;
+  
 
   @media (max-width: 769px) {
     height: 235vh;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 `;
 
@@ -178,8 +184,11 @@ export const Button = styled.button`
 
 export const ContainerFooter = styled.div`
   height: 654px;
-  width: 100%;
+  width: 110%;
   background-color: #000;
+  padding-right: 20px;
+  padding-left: 20px;
+  overflow-y: hidden;
 
   @media (max-width: 768px) {
     height: 750px;

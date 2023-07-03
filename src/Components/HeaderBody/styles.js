@@ -2,14 +2,16 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 100%;
+  width: 110%;
   height: 140vh;
   background: url('./Imagem/SilasBackground.png');
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
   overflow-y: hidden;
-  padding: 0 20px; /* Adicione o padding esquerdo e direito aqui */
+  padding: 0 20px;
+  padding-right: 20px;
+  padding-left: 20px;
 
   @media (max-width: 1415px) {
     height: 190vh;

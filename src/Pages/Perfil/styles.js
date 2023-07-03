@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 100%;
+  width: 110%;
   overflow-x: hidden;
   overflow-y: hidden;
   height: 150vh;
@@ -273,10 +273,12 @@ export const Textp = styled.p`
 export const FooterPerfil = styled.div`
   position: relative;
   height: 800px;
-  width: 100%;
+  width: 110%;
   background-color: #242424;
   padding-bottom: 20px;
   padding: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
 
   @media (max-width: 1124px) {
     height: 1000px;

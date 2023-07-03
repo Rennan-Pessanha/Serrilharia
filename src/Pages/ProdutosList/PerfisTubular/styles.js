@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-width: 100%;
+width: 110%;
 height: 150vh;
 background: url('./Imagem/Background-Produtos.png');
 background-size: cover;
@@ -17,7 +17,11 @@ padding-left: 20px;
   }
 
 @media (max-width: 768px) {
-    height: 340vh;
+    height: 360vh;
+  }
+
+  @media (max-width: 375px) {
+    height: 380vh;
   }
 `;
 
@@ -83,6 +87,7 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+  margin-right: 200px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -92,6 +97,7 @@ export const Wrapper = styled.div`
 export const TitleWrapper = styled.div`
   margin-bottom: 20px;
   text-align: center;
+  margin-right: 170px;
 `;
 
 export const Title = styled.h2`
@@ -116,6 +122,7 @@ export const Image = styled.img`
 
 width: 375px;
 height: 261px;
+margin-left: 29px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 @media (max-width: 768px) {
@@ -172,8 +179,8 @@ export const AccessButtonWrapper = styled.div`
 
   @media (max-width: 768px) {
     width: 300px;
-    margin-left: 18%;
-    margin-top: 50%;
+    margin-left: 20%;
+    margin-top: 25%;
     font-size: 44px;
   }
 
@@ -188,6 +195,20 @@ export const AccessButtonWrapper = styled.div`
     width: 300px;
     margin-left: 30%;
     margin 
+  }
+
+  @media (max-width: 425px) {
+    width: 300px;
+    margin-top: 25%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+  }
+
+  @media (max-width: 375px) {
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 1%;
+    margin-bottom: 10%;
   }
 
   @media (max-width: 375px) {
