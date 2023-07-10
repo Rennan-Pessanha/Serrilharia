@@ -2,69 +2,76 @@ import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  height: 3500px;
-  width: 100%;
+  width: 110%;
+  height: 2800px;
   background-color: #000000;
   overflow-x: hidden;
+  overflow-y: hidden;
   padding-right: 20px;
   padding-left: 20px;
 
-  @media (max-width: 1415px) {
-    height: 5700px;
+  @media (max-width: 1280px) {
+  height: 3200px;
+
   }
 
   @media (max-width: 768px) {
-    height: 5100px;
+    height: 3900px;
     padding-right: 20px;
     padding-left: 20px;
   }
 
   @media (max-width: 425px) {
-    height: 4100px;
     padding-right: 20px;
+    height: 5000px;
     padding-left: 20px;
   }
 
   @media (max-width: 375px) {
-    height: 3800px;
+    height: 4000px;
     padding-right: 16px;
     padding-left: 16px;
   }
 
   @media (max-width: 320px) {
-    height: 3890px;
     padding-right: 16px;
     padding-left: 16px;
   }
-}`
+`;
 
 export const TextWrapper = styled.div`
-  margin-left: 40%;
   height: 200px;
-  position: absolute;
-
-  @media (max-width: 768px) {
-    margin-left: 10%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const Title = styled.h1`
-  height: 83px;
   font-family: 'Montserrat';
   font-size: 64px;
   font-weight: 800;
-  width: 328px;
   color: white;
 
   @media (max-width: 768px) {
     font-size: 48px;
-    width: auto;
+    margin-right: 10%;
+  }
+
+  @media (max-width: 375px) {
+    margin-right: 30%;
+  }
+
+  @media (max-width: 360px) {
+    margin-right: 30%;
+  }
+
+  @media (max-width: 320px) {
+    margin-right: 30%;
   }
 `;
 
 export const ProductWrapper = styled.div`
   margin-top: 8%;
-  position: absolute;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -81,6 +88,8 @@ export const ProductContent = styled.div`
   align-items: center;
   padding: 20px;
   width: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
 
   ${props =>
     props.reversed &&
@@ -88,25 +97,36 @@ export const ProductContent = styled.div`
       flex-direction: row-reverse;
     `}
 
-    @media (max-width: 1415px) {
-      flex-direction: column;
-      margin-top: 50px;
-      align-items: center;
-      padding: 10px;
-    }
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin-right: 4090px;
+    padding: 10px;
+  }
 `;
 
 export const ProductImage = styled.img`
   width: 100%;
   max-width: 636px;
-  height: auto;
-  margin-right: 25px;
-  margin-left: 141px;
+  height: 300px;
+  margin-bottom: 20px;
 
   @media (max-width: 768px) {
-    margin-right: 0;
-    margin-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-right: 200px;
+    max-width: 406px;
+    height: 300px;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 48px;
+    max-width: 306px;
+    height: 300px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 48px;
+    max-width: 206px;
+    height: 200px;
   }
 `;
 
@@ -118,11 +138,9 @@ export const ProductInfo = styled.div`
   margin-right: 40px;
 
   @media (max-width: 768px) {
-    align-items: center;
     margin-left: 0;
-    margin-right: 0;
   }
-`;
+  `;
 
 export const ProductTitle = styled.h2`
   font-size: 75px;
@@ -132,35 +150,36 @@ export const ProductTitle = styled.h2`
   ${props =>
     props.leftT &&
     css`
-      margin-left: 55%;
+      text-align: center;
+      margin-left: 0;
     `}
 
   @media (max-width: 768px) {
     font-size: 48px;
-    text-align: center;
-    margin-left: 0;
+    margin-right: 120px
   }
+
 `;
 
 export const AccessButton = styled(Link)`
-width: 245px;
-height: 79px;
-font-size: 36px;
-border-radius: 50px;
-text-align: center;
-text-decoration: none;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #ffffff;
-color: #000;
-
-
+  width: 245px;
+  height: 79px;
+  font-size: 36px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #000;
+  margin-top: 20px;
 
   ${props =>
     props.left &&
     css`
-      margin-left: 90%;
+      margin-left: auto;
+      margin-right: 0;
     `}
 
   @media (max-width: 768px) {
@@ -168,5 +187,6 @@ color: #000;
     height: 60px;
     font-size: 24px;
     margin-left: 0;
+    margin-right: 0;
   }
 `;

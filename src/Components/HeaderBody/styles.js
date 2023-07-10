@@ -3,34 +3,38 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   width: 110%;
-  height: 140vh;
-  background: url('./Imagem/SilasBackground.png');
+  height: 100vh;
+  background: url('./Imagem/SilasBackground.png') no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
   overflow-x: hidden;
   overflow-y: hidden;
   padding: 0 20px;
-  padding-right: 20px;
-  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 1415px) {
-    height: 190vh;
+    height: 100vh;
   }
 
   @media (max-width: 768px) {
-    height: 170vh;
+    height: 90vh;
   }
 
   @media (max-width: 425px) {
-    height: 150vh;
+    height: 100vh;
   }
 
   @media (max-width: 375px) {
     height: 140vh;
   }
 
+
+  @media (max-width: 360px) {
+    height: 170vh;
+  }
+
   @media (max-width: 320px) {
-    height: 140vh;
+    height: 210vh;
   }
 }`
 
@@ -70,11 +74,27 @@ export const NavContent = styled.div`
   height: 23px;
 
   @media (max-width: 425px) {
-    margin-left: 0%;
+    margin-left: 30%;
+
+    flex-direction: column;
+    display: flex;
+    width: 431px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+  }
+
+  @media (max-width: 375px) {
+    margin-left: 35%;
+
+    flex-direction: column;
+    display: flex;
+    width: 431px;
+    margin-top: 0px;
+    margin-bottom: 200px;
   }
 
   @media (max-width: 320px) {
-    margin-left: 50%;
+    margin-left: 30%;
 
     flex-direction: column;
     display: flex;
@@ -83,6 +103,8 @@ export const NavContent = styled.div`
     margin-bottom: 90px;
   }
 `;
+
+
 
 export const Navs = styled(Link)`
 
