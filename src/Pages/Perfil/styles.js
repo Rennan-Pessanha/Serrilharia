@@ -14,20 +14,20 @@ padding-left: 20px;
 
 
 @media (max-width: 768px) {
-  height: 345vh;
+  height: 175vh;
   padding: 0;
 }
 
 @media (max-width: 425px) {
-  height: 480vh;
+  height: 500vh;
   padding: 0;
-  width: 110%;
+  width: 110%
   padding-right: 20px;
   padding-left: 20px;
 }
 
 @media (max-width: 375px) {
-  height: 540vh;
+  height: 365vh;
   padding: 0;
 }
 
