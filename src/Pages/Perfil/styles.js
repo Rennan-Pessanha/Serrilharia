@@ -27,7 +27,7 @@ padding-left: 20px;
 }
 
 @media (max-width: 384px) {
-  height: 452vh;
+  height: 442vh;
   padding: 0;
 }
 
