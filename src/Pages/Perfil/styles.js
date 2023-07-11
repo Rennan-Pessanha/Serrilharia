@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 100%;
+  width: 110%;
   background: url('./Imagem/SilasBackground.png') no-repeat center;
   background-size: cover;
   overflow: hidden;
@@ -131,7 +131,7 @@ export const PerfilContent = styled.div`
   margin-right: auto;
   max-width: 800px;
 
-  @media (max-width: 768px) {
+    @media (max-width: 768px) {
     margin-left: 5%;
   }
 `;
@@ -176,44 +176,34 @@ export const Textp = styled.p`
 
 export const FooterPerfil = styled.div`
   position: relative;
-  height: 800px;
   width: 110%;
   background-color: #242424;
-  padding-bottom: 20px;
-  padding: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
-
-  @media (max-width: 1124px) {
-    height: 1000px;
-    padding-right: 20px;
-    
+  padding-right: 30px;
+  box-sizing: border-box;
 
   @media (max-width: 1024px) {
-    height: 1000px;
-    padding-right: 20px;
-    padding-left: 20px;
   }
 
   @media (max-width: 768px) {
-    height: 1350px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-bottom: 40px;
   }
 
   @media (max-width: 468px) {
-    height: 1500px;
+    padding-bottom: 60px;
   }
 `;
 
 export const FooterContentWrapper = styled.div`
   position: absolute;
+  width: 100%;
+  background-color: #242424;
 `;
 
 export const PerfisWrapper = styled.div`
   display: flex;
-  margin-right: 6%;
+  margin-right: 2%;
   margin-left: -11%;
+  margin-left: 2%;
 
   @media (max-width: 768px) {
     display: block;
@@ -221,16 +211,16 @@ export const PerfisWrapper = styled.div`
 `;
 
 export const PerfisContents = styled.div`
-  display: flex;
+  display: flex
   align-items: center;
+  width: 20%;
   margin-top: 4%;
   margin-bottom: 2%;
-  flex-direction: column;
-  margin-left: 17%;
+  margin-left: 10%;
 
   @media (max-width: 768px) {
     display: block;
-    margin-left: 50%;
+    margin-left: 30%;
     margin-top: 20px;
   }
 `;
@@ -286,7 +276,7 @@ export const LogoF = styled.img`
   @media (max-width: 768px) {
     width: 300px;
     height: auto;
-    margin-left: 30%;
+    margin-left: -15%;
   }
 `;
 
@@ -306,7 +296,7 @@ export const CompanyTitle = styled.h3`
 
   @media (max-width: 768px) {
     font-size: 36px;
-    margin-left: 50px;
+    margin-left: 5px;
   }
 `;
 
@@ -320,9 +310,18 @@ export const CompanyDescription = styled.p`
 
   @media (max-width: 768px) {
     font-size: 20px;
-    margin-left: 50px;
+    width: 500px;
+    margin-left: 5px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 20px;
+    width: 300px;
+    margin-left: 0px;
   }
 `;
+
+
 
 export const ContactContent = styled.div`
   display: flex;
