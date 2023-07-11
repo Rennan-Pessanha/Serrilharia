@@ -26,6 +26,11 @@ padding-left: 20px;
   padding-left: 20px;
 }
 
+@media (max-width: 384px) {
+  height: 452vh;
+  padding: 0;
+}
+
 @media (max-width: 375px) {
   height: 365vh;
   padding: 0;
