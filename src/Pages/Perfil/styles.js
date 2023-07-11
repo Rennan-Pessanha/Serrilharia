@@ -11,11 +11,17 @@ padding: 0 20px;
 
 
 @media (max-width: 768px) {
+  height: 350vh;
+  padding: 0;
+}
+
+@media (max-width: 425px) {
+  height: 500vh;
   padding: 0;
 }
 
 @media (max-width: 375px) {
-  height: 360vh;
+  height: 540vh;
   padding: 0;
 }
 
@@ -25,7 +31,7 @@ padding: 0 20px;
 }
 
 @media (max-width: 320px) {
-  height: 700vh;
+  height: 640vh;
   padding: 0;
 }
 `;
