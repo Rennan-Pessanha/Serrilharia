@@ -8,20 +8,26 @@ background: url('./Imagem/SilasBackground.png') no-repeat center;
 background-size: cover;
 overflow: hidden;
 padding: 0 20px;
+overflow-x: hidden;
+padding-right: 20px;
+padding-left: 20px;
 
 
 @media (max-width: 768px) {
-  height: 185vh;
+  height: 345vh;
   padding: 0;
 }
 
 @media (max-width: 425px) {
-  height: 500vh;
+  height: 480vh;
   padding: 0;
+  width: 110%;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (max-width: 375px) {
-  height: 360vh;
+  height: 540vh;
   padding: 0;
 }
 
@@ -31,7 +37,7 @@ padding: 0 20px;
 }
 
 @media (max-width: 320px) {
-  height: 695vh;
+  height: 620vh;
   padding: 0;
 }
 `;
