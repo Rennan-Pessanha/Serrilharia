@@ -2,40 +2,19 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 110%;
-  height: 100vh;
-  background: url('./Imagem/SilasBackground.png') no-repeat center;
-  background-size: cover;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding: 0 20px;
-  align-items: center;
-  justify-content: center;
+width: 100%;
+background: url('./Imagem/SilasBackground.png') no-repeat center;
+background-size: cover;
+overflow: hidden;
+padding: 0 20px;
 
-  @media (max-width: 1415px) {
-    height: 100vh;
-  }
+@media (max-width: 768px) {
+  padding: 0;
+}
 
-  @media (max-width: 768px) {
-    height: 90vh;
-  }
-
-  @media (max-width: 425px) {
-    height: 100vh;
-  }
-
-  @media (max-width: 375px) {
-    height: 140vh;
-  }
-
-
-  @media (max-width: 360px) {
-    height: 170vh;
-  }
-
-  @media (max-width: 320px) {
-    height: 210vh;
-  }
+@media (max-width: 425px) {
+  padding: 0;
+}
 }`
 
 export const Content = styled.div`
@@ -80,7 +59,7 @@ export const NavContent = styled.div`
     display: flex;
     width: 431px;
     margin-top: 0px;
-    margin-bottom: 90px;
+    margin-bottom: 150px;
   }
 
   @media (max-width: 375px) {
