@@ -11,7 +11,7 @@ padding: 0 20px;
 
 
 @media (max-width: 768px) {
-  height: 350vh;
+  height: 185vh;
   padding: 0;
 }
 
@@ -21,7 +21,7 @@ padding: 0 20px;
 }
 
 @media (max-width: 375px) {
-  height: 540vh;
+  height: 360vh;
   padding: 0;
 }
 
@@ -31,7 +31,7 @@ padding: 0 20px;
 }
 
 @media (max-width: 320px) {
-  height: 640vh;
+  height: 695vh;
   padding: 0;
 }
 `;
