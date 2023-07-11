@@ -2,49 +2,19 @@ import { styled } from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-width: 100%;
-height: 190vh;
-background: url('./Imagem/SilasBackground.png') no-repeat center;
-background-size: cover;
-overflow: hidden;
-padding: 0 20px;
-overflow-x: hidden;
-padding-right: 20px;
-padding-left: 20px;
+  width: 100%;
+  background: url('./Imagem/SilasBackground.png') no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 0 20px;
 
+  @media (max-width: 768px) {
+    padding: 0;
+  }
 
-@media (max-width: 768px) {
-  height: 175vh;
-  padding: 0;
-}
-
-@media (max-width: 425px) {
-  height: 500vh;
-  padding: 0;
-  width: 110%
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-@media (max-width: 384px) {
-  height: 442vh;
-  padding: 0;
-}
-
-@media (max-width: 375px) {
-  height: 365vh;
-  padding: 0;
-}
-
-@media (max-width: 360px) {
-  height: 470vh;
-  padding: 0;
-}
-
-@media (max-width: 320px) {
-  height: 620vh;
-  padding: 0;
-}
+  @media (max-width: 425px) {
+    padding: 0;
+  }
 `;
 
 export const Content = styled.div`
