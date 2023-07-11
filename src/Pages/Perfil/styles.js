@@ -43,37 +43,60 @@ export const Logo = styled.img`
 `;
 
 export const NavContent = styled.div`
-  margin-top: 75px;
+  margin-top: 30px;
   margin-left: 20%;
   display: flex;
   width: 431px;
   height: 23px;
 
   @media (max-width: 425px) {
-    margin-left: 0%;
-  }
-
-  @media (max-width: 320px) {
-    margin-left: 50%;
+    margin-left: 30%;
 
     flex-direction: column;
     display: flex;
     width: 431px;
     margin-top: 0px;
-    margin-bottom: 90px;
+    margin-bottom: 55%;
+
+  }
+
+  @media (max-width: 375px) {
+    margin-left: 35%;
+
+    flex-direction: column;
+    display: flex;
+    width: 431px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: 55%;
+    margin-bottom: 140px;
+
+
+    flex-direction: column;
+    display: flex;
+    width: 431px;
+    margin-top: 0px;
   }
 `;
 
+
+
 export const Navs = styled(Link)`
+
   width: 68px;
   height: 19px;
   font-family: 'Montserrat';
   font-style: normal;
+  margin-top: 30px;
   font-weight: 400;
   font-size: 20px;
-  text-decoration: none;
   line-height: 24px;
-  color: #ffffff;
+  text-decoration: none;
+  color: #ffff;
+
 
   flex: none;
   order: 1;
@@ -83,18 +106,12 @@ export const Navs = styled(Link)`
     transform: scale(1.2); 
   }
 
-  @media (max-width: 375px) {
-    font-size: 15px;
-    margin-right: 2px;
-    flex-direction: column;
-  }
-
   @media (max-width: 320px) {
     margin-top: 20px;
-    margin-left: 23%;
-    margin-bottom:
   }
 `;
+
+
 
 export const PerfilTitle = styled.div`
   text-align: center;
@@ -113,6 +130,10 @@ export const PerfilContent = styled.div`
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
+
+  @media (max-width: 768px) {
+    margin-left: 5%;
+  }
 `;
 
 export const Perfilh3 = styled.h3`
