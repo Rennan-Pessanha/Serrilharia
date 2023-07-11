@@ -2,72 +2,32 @@ import { styled } from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 110%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  height: 150vh;
-  background: url('./Imagem/SilasBackground.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-right: 20px;
-  padding-left: 20px;
-
-  @media (max-width: 1650px) {
-    height: 200vh;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  @media (max-width: 1440px) {
-    height: 180vh;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  @media (max-width: 1069px) {
-    height: 250vh;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+width: 100%;
+height: 190vh;
+background: url('./Imagem/SilasBackground.png') no-repeat center;
+background-size: cover;
+overflow: hidden;
+padding: 0 20px;
 
 
-  @media (max-width: 1024px) {
-    height: 260vh;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+@media (max-width: 768px) {
+  padding: 0;
+}
 
-  @media (max-width: 768px) {
-    height: 240vh;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+@media (max-width: 375px) {
+  height: 360vh;
+  padding: 0;
+}
 
-  @media (max-width: 612px) {
-    height: 300vh;
-  }
+@media (max-width: 360px) {
+  height: 470vh;
+  padding: 0;
+}
 
-  @media (max-width: 480px) {
-    height: 550vh;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  @media (max-width: 750px) {
-    @media (max-width: 480px) {
-      height: 590vh;
-      padding-right: 20px;
-      padding-left: 20px;
-    }
-  }
-
-  @media (max-width: 320px) {
-    @media (max-width: 480px) {
-      height: 590vh;
-      padding-right: 20px;
-      padding-left: 20px;
-    }
-  }
+@media (max-width: 320px) {
+  height: 700vh;
+  padding: 0;
+}
 `;
 
 export const Content = styled.div`
@@ -150,19 +110,8 @@ export const Navs = styled(Link)`
 `;
 
 export const PerfilTitle = styled.div`
-  width: 405px;
-  height: 40px;
-  margin-left: 40%;
-
-  @media (max-width: 768px) {
-    margin-left: 0px;
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  @media (max-width: 320px) {
-    margin-top: 30%;
-  }
+  text-align: center;
+  margin-top: 30px;
 `;
 
 export const Title = styled.h1`
@@ -174,17 +123,9 @@ export const Title = styled.h1`
 
 export const PerfilContent = styled.div`
   margin-top: 50px;
-  margin-left: 10%;
-  height: 247px;
-
-  @media (max-width: 768px) {
-    margin-left: 2;
-  }
-
-  @media (max-width: 375px) {
-    margin-top: 0%;
-    margin-bottom: 10%
-  }
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 `;
 
 export const Perfilh3 = styled.h3`
@@ -200,61 +141,20 @@ export const PerfilText = styled.p`
   font-size: 19px;
   font-family: Montserrat;
   font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 20px;
 `;
 
 export const CompanyContent = styled.div`
   margin-top: 170px;
-  margin-left: 40%;
-  height: 247px;
+  text-align: center;
   margin-bottom: 10%;
-
-  @media (max-width: 768px) {
-    margin-left: 0;
-    text-align: center;
-    margin-top: 28%;
-    margin-bottom: 5%;
-  }
-
-  @media (max-width: 612px) {
-    margin-top: 48%;
-  }
-
-
-  @media (max-width: 480px) {
-    margin-left: 0;
-    text-align: center;
-    margin-top: 50%;
-    margin-bottom: 5%;
-  }
-
-  @media (max-width: 425px) {
-    margin-top: 77%;
-  }
-
-  @media (max-width: 375px) {
-    margin-left: 0;
-    text-align: center;
-    margin-top: 180%;
-
-  }
 `;
 
 export const History = styled.div`
-  height: 429px;
-  flex-direction: column;
-  margin-left: -50%;
-  flex-shrink: 0;
-  margin-bottom: 10%;
-
-  @media (max-width: 612px) {
-    margin-left: 0%;
-    width: 550px;
-  }
-
-  @media (max-width: 375px) {
-    margin-left: 12%;
-    width: 270px;
-  }
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 `;
 
 export const Textp = styled.p`
@@ -262,13 +162,9 @@ export const Textp = styled.p`
   font-size: 24px;
   font-family: Montserrat;
   font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 20px;
 `;
-
-
-
-
-
-
 
 export const FooterPerfil = styled.div`
   position: relative;
