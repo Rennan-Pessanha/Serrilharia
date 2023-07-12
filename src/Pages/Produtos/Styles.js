@@ -59,6 +59,7 @@ export const CardWrapper = styled.div`
     margin-right: auto;
     text-align: center;
   }
+
 `;
 
 export const Card = styled.div`
