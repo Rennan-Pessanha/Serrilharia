@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
 width: 110%;
-height: 150vh;
+height: auto;
 background: url('./Imagem/Background-Produtos.png');
 background-size: cover;
 background-repeat: no-repeat;
@@ -13,11 +13,11 @@ padding-right: 20px;
 padding-left: 20px;
 
 @media (max-width: 1024px) {
-    height: 195vh;
+  height: auto;
   }
 
 @media (max-width: 768px) {
-    height: 360vh;
+  height: auto;
   }
 `;
 
@@ -108,6 +108,7 @@ export const ImageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  
 
   @media (max-width: 768px) {
     width: 100%; 
@@ -117,6 +118,7 @@ export const ImageWrapper = styled.div`
 export const Image = styled.img`
 
 width: 375px;
+border: 6px solid #C2F0FF;
 height: 261px;
 margin-left: 29px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);

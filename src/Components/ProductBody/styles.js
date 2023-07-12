@@ -108,6 +108,7 @@ export const ProductImage = styled.img`
   width: 100%;
   max-width: 636px;
   height: 300px;
+  border: 6px solid #C2F0FF;
   margin-bottom: 20px;
 
   @media (max-width: 768px) {

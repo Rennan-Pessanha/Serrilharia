@@ -1,29 +1,30 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-height: 4800px;
-width: 110%;
-background-color: #000000;
-padding-right: 20px;
-padding-left: 20px;
+  height: auto;
+  width: 100%;
+  background-color: #000000;
+  padding-right: 20px;
+  padding-left: 20px;
 
-@media (max-width: 1188px) {
-    height: 12700px;
+  @media (max-width: 1188px) {
+    height: auto;
+    padding: 0;
   }
 
-@media (max-width: 768px) {
-    height: 12700px;
-}
+  @media (max-width: 768px) {
+    height: auto;
+    padding-bottom: 10px;
+  }
 
-@media (max-width: 320px) {
-  height: 12900px;
-}
-`
+  @media (max-width: 320px) {
+    height: auto;
+    padding-bottom: 30px;
+  }
+`;
 
 export const ContentWrapper = styled.div`
-  position: absolute;
-  height: 3500px;
   width: 100%;
 `;
 
@@ -31,93 +32,78 @@ export const TitleWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    margin-left: 20%;
+  }
 `;
 
 export const Title = styled.h2`
-    color: #FFF;
-    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-size: 64px;
-    font-family: Montserrat;
-    font-weight: 800;
+  color: #fff;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 64px;
+  font-family: Montserrat;
+  font-weight: 800;
 `;
 
 export const CardWrapper = styled.div`
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 10%;
- margin-left: 15%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
 
-
- @media (max-width: 1354px) {
-    margin-left: 5%;
-  }
-
-
-  @media (max-width: 1188px) {
+  @media (max-width: 1024px) {
     display: block;
-    margin-left: 35%;
-    gap: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
-
- @media (max-width: 1024px) {
-    display: block;
-    margin-left: 35%;
-    gap: 0;
-  }
-
-  @media (max-width: 768px) {
-    display: block;
-    margin-left: 35%;
-    gap: 0;
-  }
-
-  @media (max-width: 521px) {
-    display: block;
-    margin-left: 0%;
-    gap: 0;
-  }
-
 `;
-
 
 export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
   margin: 10px;
-
-  @media (max-width: 768px) {
-    width: 100%;
-    margin: 10px 0;
-  }
 `;
 
 export const CardImage = styled.img`
-    width: 378px;
+  width: 60%;
+  height: auto;
+  border: 6px solid #C2F0FF;
 
-    height: 317px;
-
+  @media (max-width: 768px) {
+    width: 50%;
+  }
 `;
 
 export const CardDescription = styled.p`
-    color: #FFF;
-    text-align: center;
-    font-size: 36px;
-    font-family: Montserrat;
-    font-weight: 500;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-family: Montserrat;
+  font-weight: 500;
 `;
 
 export const AccessButton = styled(Link)`
-    width: 245px;
-    height: 79px;
-    font-size: 36px;
-    border-radius: 50px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    color: #000;
+  width: 245px;
+  height: 79px;
+  font-size: 36px;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: #000;
+
+  @media (max-width: 768px) {
+    width: 40%;
+  }
+
+  @media (max-width: 375px) {
+    width: 50%;
+  }
 `;

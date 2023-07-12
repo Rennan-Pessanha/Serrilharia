@@ -1,92 +1,69 @@
-import { styled } from "styled-components";
+import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 110%;
-  height: 115vh;
+  width: 100%;
+  min-height: 100vh;
   background-color: #242424;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 0 20px;
   overflow-y: hidden;
-  
+  overflow-x: hidden;
 
   @media (max-width: 769px) {
-    height: 235vh;
-    padding-right: 20px;
-    padding-left: 20px;
+    height: auto;
+    padding: 0;
   }
 `;
 
 export const Content = styled.div`
-height: 200px;
-display: flex;
-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 100%;
 
-@media (max-width: 768px) {
-  height: auto;
-  flex-direction: column;
-}
+  @media (max-width: 768px) {
+    height: auto;
+    flex-direction: column;
+  }
 `;
 
 export const Logo = styled.img`
-  display: inline-block;
-  height: 172px;
   width: 280px;
-  margin-left: 123px;
-  margin-top: 12px;
+  height: 172px;
+  margin: 12px 0;
 
   @media (max-width: 768px) {
-    margin-left: 30%;
-    margin-top: 20px;
-  }
-
-  @media (max-width: 425px) {
-    margin-left: 18%;
+    width: 100%;
+    margin: 20px 0;
   }
 `;
 
 export const NavContent = styled.div`
-  margin-top: 30px;
-  margin-left: 20%;
   display: flex;
-  width: 431px;
-  height: 23px;
+  justify-content: center;
+  width: 100%;
 
   @media (max-width: 425px) {
-    margin-left: 0%;
-  }
-
-  @media (max-width: 320px) {
-    margin-left: 50%;
-
-    flex-direction: column;
-    display: flex;
-    width: 431px;
-    margin-top: 0px;
-    margin-bottom: 90px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
   }
 `;
 
 export const Navs = styled(Link)`
-
-  width: 68px;
-  height: 19px;
+  margin: 0 10px;
   font-family: 'Montserrat';
   font-style: normal;
   text-decoration: none;
-  color: #ffff;
+  color: #ffffff;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 
-
-  flex: none;
-  order: 1;
-  flex-grow: 1;
-
   &:hover {
-    color: #red;
-    transform: scale(1.2); 
+    color: red;
+    transform: scale(1.2);
   }
 
   @media (max-width: 320px) {
@@ -95,18 +72,30 @@ export const Navs = styled(Link)`
 `;
 
 export const FormContent = styled.div`
-  width: 100%;
-  max-width: 1280px;
-  height: 656px;
-  background-color: #000;
-  margin: 0 auto;
-  padding: 5px;
-  border-radius: 30px;
+width: 100%;
+max-width: 1280px;
+height: auto;
+margin: 5% auto;
+background-color: #000;
+padding: 30px;
+border-radius: 30px;
+
+  @media (max-width: 1440px) {
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 
   @media (max-width: 769px) {
-    height: 850px;
-    margin-top: 50px;
+    margin: 5% auto;
+    padding: 20px;
   }
+
+  @media (max-width: 384px) {
+    height: auto;
+    width: 70%;
+  }
+
 `;
 
 export const TitleWrapper = styled.div`
@@ -179,19 +168,16 @@ export const Button = styled.button`
   }
 `;
 
-
-
-
 export const ContainerFooter = styled.div`
-  height: 654px;
-  width: 110%;
+  width: 100%;
+  height: auto;
   background-color: #000;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 0 20px;
   overflow-y: hidden;
 
   @media (max-width: 768px) {
-    height: 750px;
+    height: auto;
+    padding: 0;
   }
 `;
 
@@ -203,12 +189,10 @@ export const ContentFooter = styled.div`
 
   @media (max-width: 768px) {
     flex-direction: column;
-    
   }
 `;
 
 export const LogoContent = styled.div`
-  flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,8 +209,10 @@ export const LogoFooter = styled.img`
   @media (max-width: 768px) {
     width: 300px;
     height: auto;
+    margin-left: -15%;
   }
 `;
+
 
 export const CompanyContent = styled.div`
   display: flex;
@@ -240,9 +226,11 @@ export const CompanyTitle = styled.h3`
   font-size: 49px;
   font-family: Montserrat;
   font-weight: 800;
+  margin-left: 110px;
 
   @media (max-width: 768px) {
     font-size: 36px;
+    margin-left: 5px;
   }
 `;
 
@@ -252,11 +240,22 @@ export const CompanyDescription = styled.p`
   color: #ffffff;
   font-family: Montserrat;
   margin-top: 8px;
+  margin-left: 75px;
 
   @media (max-width: 768px) {
     font-size: 20px;
+    width: 500px;
+    margin-left: 5px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 20px;
+    width: 300px;
+    margin-left: 0px;
   }
 `;
+
+
 
 export const ContactContent = styled.div`
   display: flex;
@@ -274,10 +273,12 @@ export const ContactTitle = styled.h3`
   color: #fff;
   font-size: 42px;
   font-family: Montserrat;
+  margin-left: 120px;
   font-weight: 800;
 
   @media (max-width: 768px) {
     font-size: 30px;
+    margin-left: -10px;
   }
 `;
 
@@ -291,11 +292,18 @@ export const ContactList = styled.ul`
 
   @media (max-width: 768px) {
     font-size: 18px;
+    
   }
 `;
 
 export const ContactListItem = styled.li`
   font-size: 16px;
+  margin-left: 155px;
   color: #ffffff;
   margin-bottom: 8px;
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+    margin-left: 10px;
+  }
 `;
