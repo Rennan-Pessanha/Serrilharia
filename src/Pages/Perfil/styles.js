@@ -154,15 +154,38 @@ export const PerfilText = styled.p`
 `;
 
 export const CompanyContent = styled.div`
-  margin-top: 170px;
+  margin-top: 5%;
   text-align: center;
   margin-bottom: 10%;
+
+  @media (max-width: 425px) {
+    margin-top: 10%;
+  }
 `;
 
 export const History = styled.div`
   margin-left: auto;
   margin-right: auto;
   max-width: 800px;
+
+  @media (max-width: 768px) {
+    max-width: 600px;
+  }
+
+  @media (max-width: 384px) {
+    max-width: 370px;
+    margin-left: 0;
+  }
+
+  @media (max-width: 360px) {
+    max-width: 354px;
+    margin-left: 0;
+  }
+
+  @media (max-width: 320px) {
+    max-width: 314px;
+    margin-left: 0;
+  }
 `;
 
 export const Textp = styled.p`
