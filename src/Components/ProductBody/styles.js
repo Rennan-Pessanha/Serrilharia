@@ -2,38 +2,15 @@ import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 110%;
-  height: 2800px;
+  width: 100%;
+  height: auto;
   background-color: #000000;
   overflow-x: hidden;
-  overflow-y: hidden;
   padding-right: 20px;
   padding-left: 20px;
-
-  @media (max-width: 1280px) {
-  height: 3200px;
-
-  }
+  padding-bottom: 60px;
 
   @media (max-width: 768px) {
-    height: 3900px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  @media (max-width: 425px) {
-    padding-right: 20px;
-    height: 5000px;
-    padding-left: 20px;
-  }
-
-  @media (max-width: 375px) {
-    height: 4000px;
-    padding-right: 16px;
-    padding-left: 16px;
-  }
-
-  @media (max-width: 320px) {
     padding-right: 16px;
     padding-left: 16px;
   }

@@ -3,25 +3,20 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
 width: 110%;
-height: 150vh;
-background: url('./Imagem/Background-Produtos.png');
-background-size: cover;
-background-repeat: no-repeat;
+height: auto;
+background: url('./Imagem/Background-Produtos.png') no-repeat center;
+background-size: cover;;
 overflow-x: hidden;
 overflow-y: hidden;
 padding-right: 20px;
 padding-left: 20px;
 
 @media (max-width: 1024px) {
-    height: 195vh;
+  height: auto;
   }
 
 @media (max-width: 768px) {
-    height: 360vh;
-  }
-
-  @media (max-width: 375px) {
-    height: 380vh;
+  height: auto;
   }
 `;
 
@@ -51,18 +46,59 @@ export const Logo = styled.img`
 `;
 
 export const NavContent = styled.div`
-  margin-top: 75px;
+  margin-top: 30px;
   margin-left: 20%;
   display: flex;
   width: 431px;
   height: 23px;
 
   @media (max-width: 768px) {
-    margin-top: 20px;
-    margin-left: 0;
-    justify-content: center;
+    margin-bottom: 90px;
+    margin-left: 5%;
+  }
+
+  @media (max-width: 425px) {
+    margin-left: 30%;
+
+    flex-direction: column;
+    display: flex;
+    width: 431px;
+    margin-top: 0px;
+    margin-bottom: 150px;
+  }
+
+  @media (max-width: 384px) {
+    margin-left: 30%;
+
+    flex-direction: column;
+    display: flex;
+    width: 431px;
+    margin-top: 0px;
+    margin-bottom: 190px;
+  }
+
+  @media (max-width: 375px) {
+    margin-left: 35%;
+
+    flex-direction: column;
+    display: flex;
+    width: 431px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: 30%;
+
+    flex-direction: column;
+    display: flex;
+    width: 431px;
+    margin-top: 0px;
+    margin-bottom: 150px;
   }
 `;
+
+
 
 export const Navs = styled(Link)`
 
@@ -70,27 +106,45 @@ export const Navs = styled(Link)`
   height: 19px;
   font-family: 'Montserrat';
   font-style: normal;
+  margin-top: 30px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
-  color: #ffffff;
+  color: #ffff;
+
 
   flex: none;
   order: 1;
   flex-grow: 1;
+
+  &:hover {
+    transform: scale(1.2); 
+  }
+
+  @media (max-width: 320px) {
+    margin-top: 20px;
+  }
 `;
+
 
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
   margin-top: 40px;
   margin-right: 200px;
 
   @media (max-width: 768px) {
     flex-direction: column;
+    margin-left: 20%;
+    margin-right: 200px;
+  }
+
+  @media (max-width: 384px) {
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 150px;
   }
 `;
 
@@ -112,6 +166,7 @@ export const ImageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  
 
   @media (max-width: 768px) {
     width: 100%; 
@@ -121,6 +176,7 @@ export const ImageWrapper = styled.div`
 export const Image = styled.img`
 
 width: 375px;
+border: 6px solid #C2F0FF;
 height: 261px;
 margin-left: 29px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -172,6 +228,7 @@ export const AccessButtonWrapper = styled.div`
   display: flex;
   margin-left: 35%;
   margin-top: 10%;
+  margin-bottom: 10%;
 
   @media (max-width: 1024px) {
     margin-left: 25%;
