@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 100%;
+  width: 110%;
   height: auto;
   background-color: #000000;
   overflow-x: hidden;
@@ -95,6 +95,13 @@ export const ProductImage = styled.img`
     height: 300px;
   }
 
+  @media (max-width: 384px) {
+    font-size: 48px;
+    max-width: 306px;
+    margin-left: 5%;
+    height: 250px;
+  }
+
   @media (max-width: 375px) {
     font-size: 48px;
     max-width: 306px;
@@ -104,6 +111,7 @@ export const ProductImage = styled.img`
   @media (max-width: 320px) {
     font-size: 48px;
     max-width: 206px;
+    margin-left: 15%;
     height: 200px;
   }
 `;
