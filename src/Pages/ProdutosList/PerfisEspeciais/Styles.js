@@ -228,6 +228,7 @@ export const AccessButtonWrapper = styled.div`
   display: flex;
   margin-left: 35%;
   margin-top: 10%;
+  margin-bottom: 10%;
 
   @media (max-width: 1024px) {
     margin-left: 25%;
