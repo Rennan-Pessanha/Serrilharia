@@ -17,7 +17,8 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     padding-bottom: 40px;
-    width: 130%;
+    padding-right: 120px;
+    width: 140%;
   }
 `;
 
@@ -25,6 +26,11 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 1187px) {
+    flex-direction: column;
+    
+  }
 
 
   @media (max-width: 768px) {
@@ -82,6 +88,11 @@ export const CompanyDescription = styled.p`
   font-family: Montserrat;
   margin-top: 8px;
   margin-left: 75px;
+
+  @media (max-width: 1187px) {
+    width: 800px;
+    
+  }
 
   @media (max-width: 768px) {
     font-size: 20px;

@@ -18,6 +18,8 @@ padding-left: 20px;
 
   @media (max-width: 1024px) {
     height: auto;
+  width: 130%;
+
     }
 
 @media (max-width: 768px) {
