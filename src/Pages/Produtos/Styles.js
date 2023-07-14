@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: auto;
   width: 100%;
   background-color: #000000;
-  padding-right: 20px;
+  padding-right: 50px;
   padding-left: 20px;
 
   @media (max-width: 1188px) {
@@ -15,6 +15,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     height: auto;
+    width: 130%;
     padding-bottom: 10px;
   }
 

@@ -13,7 +13,12 @@ padding-left: 20px;
 
 @media (max-width: 1024px) {
   height: auto;
+  width: 120%;
   }
+
+  @media (max-width: 1024px) {
+    height: auto;
+    }
 
 @media (max-width: 768px) {
   height: auto;
@@ -135,6 +140,12 @@ export const Wrapper = styled.div`
   margin-top: 40px;
   margin-right: 200px;
 
+  @media (max-width: 1165px) {
+    flex-direction: column;
+    margin-left: 0%;
+    margin-right: 200px;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
     margin-left: 20%;
@@ -207,6 +218,11 @@ export const Paragraph = styled.p`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    @media (max-width: 1165px) {
+      margin-left: 5%;
+      width: 931px;
+    }
 
     @media (max-width: 1024px) {
         margin-left: 5%;
