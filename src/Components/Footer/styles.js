@@ -1,23 +1,24 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-position: relative;
-width: 110%;
-background-color: #242424;
-padding-right: 30px;
-box-sizing: border-box;
+  display: block;
+  width: 120%;
+  height: auto;
+  background-color: #242424;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 20px;
+  padding-right: 50px;
+  margin-left: -20px; /* Adicione esta linha */
 
-@media (max-width: 1024px) {
-}
+  @media (max-width: 1024px) {
 
-@media (max-width: 768px) {
-  padding-bottom: 40px;
-  width: 135%;
-}
+  }
 
-@media (max-width: 468px) {
-  padding-bottom: 60px;
-}
+  @media (max-width: 768px) {
+    padding-bottom: 40px;
+    width: 130%;
+  }
 `;
 
 export const Content = styled.div`
@@ -30,7 +31,7 @@ export const Content = styled.div`
     flex-direction: column;
     
   }
-`;
+`
 
 export const LogoContent = styled.div`
   flex: 1;

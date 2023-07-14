@@ -56,6 +56,10 @@ export const NavContent = styled.div`
   width: 431px;
   height: 23px;
 
+  @media (max-width: 1024px) {
+    margin-left: 10%;
+  }
+
   @media (max-width: 425px) {
     margin-left: 30%;
 

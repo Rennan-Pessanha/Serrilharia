@@ -5,8 +5,11 @@ export const Container = styled.div`
   width: 110%;
   height: auto;
   background-color: #000000;
-  overflow-x: hidden;
+  overflow: hidden;
+  padding: 0 20px;
+  padding-right: 50px;
   padding-bottom: 20px;
+
 
   @media (max-width: 768px) {
     width: 150%;
@@ -51,8 +54,12 @@ export const Title = styled.h1`
     margin-right: 10%;
   }
 
+  @media (max-width: 384px) {
+    margin-left: -8%;
+  }
+
   @media (max-width: 375px) {
-    margin-right: 30%;
+    margin-right: 34%;
   }
 
   @media (max-width: 360px) {
@@ -60,7 +67,7 @@ export const Title = styled.h1`
   }
 
   @media (max-width: 320px) {
-    margin-right: 30%;
+    margin-right: 50%;
   }
 `;
 
@@ -72,17 +79,33 @@ export const ProductWrapper = styled.div`
 
   @media (max-width: 768px) {
     margin-top: 16%;
-    margin-right: 30%;
+    margin-right: -2%;
     flex-direction: column;
     align-items: center;
   }
 
-  @media (max-width: 657px) {
-    margin-left: -20%;
+  @media (max-width: 768px) {
+    margin-left: -50%;
   }
 
   @media (max-width: 515px) {
-    margin-left: -20%;
+    margin-left: -5%;
+  }
+
+  @media (max-width: 425px) {
+    margin-left: -10%;
+  }
+
+  @media (max-width: 384px) {
+    margin-left: -40%;
+  }
+
+  @media (max-width: 375px) {
+    margin-left: -40%;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: -64%;
   }
 `;
 
@@ -171,6 +194,12 @@ export const ProductTitle = styled.h2`
       text-align: center;
       margin-left: 0;
     `}
+
+
+  @media (max-width: 1090px) {
+      font-size: 48px;
+      margin-right: 120px
+    }
 
   @media (max-width: 768px) {
     font-size: 48px;
