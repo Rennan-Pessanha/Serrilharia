@@ -12,6 +12,7 @@ box-sizing: border-box;
 
 @media (max-width: 768px) {
   padding-bottom: 40px;
+  width: 135%;
 }
 
 @media (max-width: 468px) {

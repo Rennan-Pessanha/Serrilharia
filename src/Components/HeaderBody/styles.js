@@ -7,15 +7,19 @@ background: url('./Imagem/SilasBackground.png') no-repeat center;
 background-size: cover;
 overflow: hidden;
 padding: 0 20px;
+padding-right: 50px;
 
 @media (max-width: 768px) {
   padding: 0;
+  width: 140%;
+  padding-right: 100px;
+  
 }
 
 @media (max-width: 425px) {
   padding: 0;
 }
-}`
+`
 
 export const Content = styled.div`
 height: 200px;
@@ -146,12 +150,12 @@ export const SubTextContent = styled.div`
   margin-left: 141px;
   margin-top: 34px;
 
-  @media (max-width: 768px) {
-    margin-left: 0;
-    width: 80%;
+ @media (max-width: 768px) {
+    margin-left: 50px;
+    width: 60%;
     margin-top: 20px;
     align-self: center;
-  }
+  } 
 `;
 
 export const SubText = styled.p`

@@ -6,11 +6,10 @@ export const Container = styled.div`
   height: auto;
   background-color: #000000;
   overflow-x: hidden;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 
   @media (max-width: 768px) {
+    width: 150%;
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -21,6 +20,24 @@ export const TextWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 0px;
+
+  @media (max-width: 768px) {  
+    margin-bottom: -20px;
+    margin-left: -20%;
+  }
+
+  @media (max-width: 425px) {  
+    margin-left: -10%;
+  }
+
+  @media (max-width: 375px) {  
+    margin-left: 5%;
+  }
+
+  @media (max-width: 320px) {  
+    margin-left: 10%;
+  }
 `;
 
 export const Title = styled.h1`
@@ -55,8 +72,17 @@ export const ProductWrapper = styled.div`
 
   @media (max-width: 768px) {
     margin-top: 16%;
+    margin-right: 30%;
     flex-direction: column;
     align-items: center;
+  }
+
+  @media (max-width: 657px) {
+    margin-left: -20%;
+  }
+
+  @media (max-width: 515px) {
+    margin-left: -20%;
   }
 `;
 
@@ -93,6 +119,12 @@ export const ProductImage = styled.img`
     margin-right: 200px;
     max-width: 406px;
     height: 300px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 28px;
+    height: 200px;
+    width: 250px;
   }
 
   @media (max-width: 384px) {
@@ -145,6 +177,13 @@ export const ProductTitle = styled.h2`
     margin-right: 120px
   }
 
+  @media (max-width: 515px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 28px;
+  }
 `;
 
 export const AccessButton = styled(Link)`
@@ -174,5 +213,11 @@ export const AccessButton = styled(Link)`
     font-size: 24px;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  @media (max-width: 425px) {
+    margin-top: -0px;
+    width: 150px;
+    height: 60px;
   }
 `;
