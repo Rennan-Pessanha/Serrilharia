@@ -198,7 +198,6 @@ export const Textp = styled.p`
 `;
 
 export const FooterPerfil = styled.div`
-  position: relative;
   width: 110%;
   background-color: #242424;
   padding-right: 30px;
@@ -218,7 +217,8 @@ export const FooterPerfil = styled.div`
 
 export const FooterContentWrapper = styled.div`
   position: absolute;
-  width: 100%;
+  width: 110%;
+  padding-right: 30px;
   background-color: #242424;
 `;
 

@@ -11,9 +11,9 @@ overflow-y: hidden;
 padding-right: 20px;
 padding-left: 20px;
 
-@media (max-width: 1024px) {
+@media (max-width: 1440px) {
   height: auto;
-  width: 120%;
+  width: 130%;
   }
 
   @media (max-width: 1024px) {

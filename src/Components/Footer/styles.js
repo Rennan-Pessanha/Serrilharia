@@ -1,45 +1,42 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  display: block;
-  width: 120%;
-  height: auto;
-  background-color: #242424;
-  box-sizing: border-box;
-  overflow: hidden;
-  padding: 0 20px;
-  padding-right: 50px;
-  margin-left: -20px; /* Adicione esta linha */
+export const Container = styled.footer`
+width: 110%;
+height: auto;
+background-color: #242424;
+overflow: hidden;
+padding: 0 20px;
+padding-right: 50px;
+padding-bottom: 20px;
 
-  @media (max-width: 1024px) {
 
-  }
+@media (max-width: 768px) {
+  width: 150%;
+  padding-right: 16px;
+  padding-left: 16px;
+}
 
-  @media (max-width: 768px) {
-    padding-bottom: 40px;
-    padding-right: 120px;
-    width: 140%;
-  }
 `;
 
-export const Content = styled.div`
+
+export const Content = styled.article`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  margin: 0; /* Certifique-se de que não há margens aplicadas */
+  padding: 0; /* Certifique-se de que não há preenchimentos aplicados */
 
   @media (max-width: 1187px) {
     flex-direction: column;
-    
   }
-
 
   @media (max-width: 768px) {
     flex-direction: column;
-    
   }
-`
+`;
 
-export const LogoContent = styled.div`
+export const LogoContent = styled.section`
   flex: 1;
   display: flex;
   align-items: center;
@@ -61,7 +58,7 @@ export const Logo = styled.img`
   }
 `;
 
-export const CompanyContent = styled.div`
+export const CompanyContent = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,7 +106,7 @@ export const CompanyDescription = styled.p`
 
 
 
-export const ContactContent = styled.div`
+export const ContactContent = styled.section`
   display: flex;
   margin-left: 20px;
   flex-direction: column;
