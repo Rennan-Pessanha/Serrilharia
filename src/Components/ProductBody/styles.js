@@ -7,7 +7,7 @@ export const Container = styled.div`
   background-color: #000000;
   overflow: hidden;
   padding: 0 10px;
-  padding-right: 50px;
+  padding-right: 60px;
 
 
   @media (max-width: 768px) {
@@ -15,6 +15,7 @@ export const Container = styled.div`
     padding-right: 16px;
     padding-left: 16px;
   }
+
 `;
 
 export const TextWrapper = styled.div`

@@ -9,7 +9,7 @@ export const Container = styled.div`
   background-color: #000000;
   overflow: hidden;
   padding: 0 10px;
-  padding-right: 50px;
+  padding-right: 65px;
 
 
   @media (max-width: 768px) {
@@ -205,7 +205,7 @@ height: auto;
 background-color: #242424;
 overflow: hidden;
 padding: 0 20px;
-padding-right: 50px;
+padding-right: 65px;
 padding-bottom: 20px;
 
 
