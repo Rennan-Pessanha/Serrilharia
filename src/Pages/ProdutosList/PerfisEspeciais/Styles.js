@@ -2,29 +2,23 @@ import { styled } from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-width: 110%;
-height: auto;
 background: url('./Imagem/Background-Produtos.png') no-repeat center;
 background-size: cover;;
-overflow-x: hidden;
-overflow-y: hidden;
-padding-right: 20px;
-padding-left: 20px;
+width: 110%;
+height: auto;
+background-color: #242424;
+overflow: hidden;
+padding: 0 20px;
+padding-right: 50px;
+padding-bottom: 20px;
 
-@media (max-width: 1440px) {
-  height: auto;
-  width: 130%;
-  }
-
-  @media (max-width: 1024px) {
-    height: auto;
-  width: 130%;
-
-    }
 
 @media (max-width: 768px) {
-  height: auto;
-  }
+  width: 150%;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
 `;
 
 export const Content = styled.div`

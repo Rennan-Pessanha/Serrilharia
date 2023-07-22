@@ -2,18 +2,20 @@ import { styled } from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  width: 110%;
   background: url('./Imagem/SilasBackground.png') no-repeat center;
   background-size: cover;
+  width: 110%;
+  height: auto;
+  background-color: #000000;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 0 10px;
+  padding-right: 50px;
+
 
   @media (max-width: 768px) {
-    padding: 0;
-  }
-
-  @media (max-width: 425px) {
-    padding: 0;
+    width: 150%;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 `;
 
@@ -198,27 +200,25 @@ export const Textp = styled.p`
 `;
 
 export const FooterPerfil = styled.div`
-  width: 110%;
-  background-color: #242424;
-  padding-right: 30px;
-  box-sizing: border-box;
+width: 110%;
+height: auto;
+background-color: #242424;
+overflow: hidden;
+padding: 0 20px;
+padding-right: 50px;
+padding-bottom: 20px;
 
-  @media (max-width: 1024px) {
-  }
 
-  @media (max-width: 768px) {
-    padding-bottom: 40px;
-  }
-
-  @media (max-width: 468px) {
-    padding-bottom: 60px;
-  }
+@media (max-width: 768px) {
+  width: 150%;
+  padding-right: 16px;
+  padding-left: 16px;
+}
 `;
 
 export const FooterContentWrapper = styled.div`
-  position: absolute;
+  position: relative;
   width: 110%;
-  padding-right: 30px;
   background-color: #242424;
 `;
 
