@@ -2,32 +2,25 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-  height: auto;
-  width: 100%;
-  background-color: #000000;
-  padding-right: 50px;
-  padding-left: 20px;
+width: 110%;
+height: auto;
+background-color: #000000;
+overflow: hidden;
+padding: 0 10px;
+padding-right: 60px;
 
-  @media (max-width: 1188px) {
-    height: auto;
-    width: 120%;
-    padding: 0;
-  }
 
-  @media (max-width: 768px) {
-    height: auto;
-    width: 130%;
-    padding-bottom: 10px;
-  }
-
-  @media (max-width: 320px) {
-    height: auto;
-    padding-bottom: 30px;
-  }
+@media (max-width: 768px) {
+  width: 150%;
+  padding-right: 16px;
+  padding-left: 16px;
+}
 `;
 
 export const ContentWrapper = styled.div`
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+
 `;
 
 export const TitleWrapper = styled.div`

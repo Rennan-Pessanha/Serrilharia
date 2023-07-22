@@ -6,9 +6,8 @@ export const Container = styled.div`
   height: auto;
   background-color: #000000;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 0 10px;
   padding-right: 50px;
-  padding-bottom: 20px;
 
 
   @media (max-width: 768px) {
