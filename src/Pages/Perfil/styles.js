@@ -1,119 +1,66 @@
-import { styled } from "styled-components";
+import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   background: url('./Imagem/SilasBackground.png') no-repeat center;
   background-size: cover;
-  width: 110%;
-  height: auto;
+  width: 100%;
+  min-height: 100vh;
   background-color: #000000;
-  overflow: hidden;
   padding: 0 10px;
   padding-right: 65px;
 
-
   @media (max-width: 768px) {
-    width: 150%;
     padding-right: 16px;
     padding-left: 16px;
   }
 `;
 
 export const Content = styled.div`
-  height: 200px;
   display: flex;
-  width: 100%;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-  }
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 `;
 
 export const Logo = styled.img`
-  display: inline-block;
   height: 172px;
   width: 280px;
-  margin-left: 123px;
-  margin-top: 12px;
+  margin: 12px 0;
 
   @media (max-width: 768px) {
-    margin-left: 0;
-    margin-top: 20px;
+    margin: 20px 0;
   }
 `;
 
 export const NavContent = styled.div`
-  margin-top: 30px;
-  margin-left: 20%;
   display: flex;
-  width: 431px;
-  height: 23px;
+  align-items: center;
+  gap: 20px;
 
-  @media (max-width: 425px) {
-    margin-left: 30%;
-
+  @media (max-width: 768px) {
     flex-direction: column;
-    display: flex;
-    width: 431px;
-    margin-top: 0px;
-    margin-bottom: 55%;
-
-  }
-
-  @media (max-width: 375px) {
-    margin-left: 35%;
-
-    flex-direction: column;
-    display: flex;
-    width: 431px;
-    margin-top: 0px;
-    margin-bottom: 200px;
-  }
-
-  @media (max-width: 320px) {
-    margin-left: 55%;
-    margin-bottom: 140px;
-
-
-    flex-direction: column;
-    display: flex;
-    width: 431px;
-    margin-top: 0px;
   }
 `;
 
-
-
 export const Navs = styled(Link)`
-
-  width: 68px;
-  height: 19px;
   font-family: 'Montserrat';
-  font-style: normal;
-  margin-top: 30px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
   text-decoration: none;
   color: #ffff;
-
-
-  flex: none;
-  order: 1;
-  flex-grow: 1;
+  transition: transform 0.2s;
 
   &:hover {
     transform: scale(1.2); 
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 768px) {
     margin-top: 20px;
   }
 `;
-
-
 
 export const PerfilTitle = styled.div`
   text-align: center;
@@ -125,16 +72,21 @@ export const Title = styled.h1`
   font-size: 36px;
   font-family: Montserrat;
   font-weight: 800;
+
+  @media (max-width: 768px) {
+    font-size: 5vw;
+  }
 `;
 
 export const PerfilContent = styled.div`
   margin-top: 50px;
-  margin-left: auto;
+  margin-left: 10.7%;
   margin-right: auto;
   max-width: 800px;
 
-    @media (max-width: 768px) {
+  @media (max-width: 768px) {
     margin-left: 5%;
+    margin-top: 12%;
   }
 `;
 
@@ -144,6 +96,10 @@ export const Perfilh3 = styled.h3`
   font-weight: 800;
   font-family: Montserrat;
   margin-bottom: 5px;
+
+  @media (max-width: 768px) {
+    font-size: 3.5vw;
+  }
 `;
 
 export const PerfilText = styled.p`
@@ -153,11 +109,16 @@ export const PerfilText = styled.p`
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 2.7vw;
+  }
 `;
 
 export const CompanyContent = styled.div`
   margin-top: 5%;
   text-align: center;
+  margin-left: -5%;
   margin-bottom: 10%;
 
   @media (max-width: 425px) {
@@ -176,17 +137,14 @@ export const History = styled.div`
 
   @media (max-width: 384px) {
     max-width: 370px;
-    margin-left: 0;
   }
 
   @media (max-width: 360px) {
     max-width: 354px;
-    margin-left: 0;
   }
 
   @media (max-width: 320px) {
     max-width: 314px;
-    margin-left: 0;
   }
 `;
 
@@ -200,50 +158,34 @@ export const Textp = styled.p`
 `;
 
 export const FooterPerfil = styled.div`
-width: 110%;
-height: auto;
-background-color: #242424;
-overflow: hidden;
-padding: 0 20px;
-padding-right: 65px;
-padding-bottom: 20px;
-
-
-@media (max-width: 768px) {
-  width: 150%;
-  padding-right: 16px;
-  padding-left: 16px;
-}
+  width: 100%;
+  background-color: #242424;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 `;
 
 export const FooterContentWrapper = styled.div`
-  position: relative;
-  width: 110%;
-  background-color: #242424;
+  width: 100%;
+  max-width: 1200px;
 `;
 
 export const PerfisWrapper = styled.div`
   display: flex;
-  margin-right: 2%;
-  margin-left: -11%;
-  margin-left: 2%;
+  gap: 20px;
 
   @media (max-width: 768px) {
-    display: block;
+    flex-direction: column;
+    align-items: center;
   }
 `;
 
 export const PerfisContents = styled.div`
-  display: flex
+  display: flex;
   align-items: center;
-  width: 20%;
-  margin-top: 4%;
-  margin-bottom: 2%;
-  margin-left: 10%;
+  gap: 10px;
 
   @media (max-width: 768px) {
-    display: block;
-    margin-left: 30%;
     margin-top: 20px;
   }
 `;
@@ -254,7 +196,6 @@ export const PerfilImage = styled.img`
 `;
 
 export const PerfilContentTitle = styled.h3`
-  margin-top: 10px;
   color: #FFF;
   font-size: 24px;
   font-family: Montserrat;
@@ -262,7 +203,6 @@ export const PerfilContentTitle = styled.h3`
 `;
 
 export const PerfilDescription = styled.p`
-  margin-top: 5px;
   color: #FFF;
   font-size: 17px;
   font-family: Montserrat;
@@ -285,7 +225,7 @@ export const LogoContent = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  margin: 20px 0;
 
   @media (max-width: 768px) {
     margin-bottom: 20px;
@@ -293,65 +233,54 @@ export const LogoContent = styled.div`
 `;
 
 export const LogoF = styled.img`
-  width: 475px;
-  height: 400px;
+  width: 100%;
+  max-width: 475px;
+  height: auto;
 
   @media (max-width: 768px) {
-    width: 300px;
-    height: auto;
+    max-width: 300px;
     margin-left: -15%;
   }
 `;
 
 export const CompanyFContent = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  flex: 1;
+  align-items: center;
+  margin-top: 20px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
 `;
 
 export const CompanyTitle = styled.h3`
   color: #fff;
-  font-size: 49px;
+  font-size: 5vw;
   font-family: Montserrat;
   font-weight: 800;
-  margin-left: 110px;
-
-  @media (max-width: 768px) {
-    font-size: 36px;
-    margin-left: 5px;
-  }
 `;
 
 export const CompanyDescription = styled.p`
-  font-size: 25px;
+  font-size: 3vw;
   font-weight: 400;
   color: #ffffff;
   font-family: Montserrat;
   margin-top: 8px;
-  margin-left: 75px;
-
-  @media (max-width: 768px) {
-    font-size: 20px;
-    width: 500px;
-    margin-left: 5px;
-  }
+  text-align: center;
 
   @media (max-width: 425px) {
-    font-size: 20px;
-    width: 300px;
-    margin-left: 0px;
+    font-size: 4vw;
   }
 `;
 
-
-
 export const ContactContent = styled.div`
-  display: flex;
-  margin-left: 20px;
-  flex-direction: column;
-  justify-content: center;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
 
   @media (max-width: 768px) {
     margin-left: 0;
@@ -360,13 +289,12 @@ export const ContactContent = styled.div`
 
 export const ContactTitle = styled.h3`
   color: #fff;
-  font-size: 42px;
+  font-size: 5vw;
   font-family: Montserrat;
-  margin-left: 120px;
   font-weight: 800;
 
   @media (max-width: 768px) {
-    font-size: 30px;
+    font-size: 3.5vw;
     margin-left: -10px;
   }
 `;
@@ -376,23 +304,20 @@ export const ContactList = styled.ul`
   padding: 0;
   margin: 0;
   color: #fff;
-  font-size: 24px;
+  font-size: 3vw;
   font-family: Montserrat;
 
   @media (max-width: 768px) {
-    font-size: 18px;
-    
+    font-size: 2.5vw;
   }
 `;
 
 export const ContactListItem = styled.li`
-  font-size: 16px;
-  margin-left: 155px;
+  font-size: 2.5vw;
   color: #ffffff;
   margin-bottom: 8px;
 
   @media (max-width: 768px) {
-    font-size: 18px;
-    margin-left: 10px;
+    font-size: 2vw;
   }
 `;
