@@ -22,7 +22,7 @@ export const ContentWrapper = styled.div`
   margin-left: 5%;
 
   @media (max-width: 768px) {
-    margin-left: -4%;
+    margin-left: -5%;
   }
 
 
@@ -44,6 +44,12 @@ export const Title = styled.h2`
   font-size: 64px;
   font-family: Montserrat;
   font-weight: 800;
+
+  @media (max-width: 384px) {
+    font-size: 44px;
+    margin-right: 15%;
+  }
+
 `;
 
 export const CardWrapper = styled.div`
@@ -59,6 +65,7 @@ export const CardWrapper = styled.div`
     margin-right: auto;
     text-align: center;
   }
+
 `;
 
 export const Card = styled.div`
@@ -66,6 +73,10 @@ export const Card = styled.div`
   flex-direction: column;
   align-items: center;
   margin: 10px;
+
+  @media (max-width: 768px) {
+    margin-left: -5%;
+  }
 `;
 
 export const CardImage = styled.img`
@@ -74,7 +85,11 @@ export const CardImage = styled.img`
   border: 6px solid #C2F0FF;
 
   @media (max-width: 768px) {
-    width: 50%;
+    width: 55%;
+  }
+
+  @media (max-width: 425px) {
+    margin-left: -5%;
   }
 `;
 
