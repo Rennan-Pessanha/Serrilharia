@@ -19,7 +19,12 @@ padding-right: 60px;
 
 export const ContentWrapper = styled.div`
   width: 80%;
-  margin-left: 10%;
+  margin-left: 5%;
+
+  @media (max-width: 768px) {
+    margin-left: -4%;
+  }
+
 
 `;
 
@@ -29,7 +34,7 @@ export const TitleWrapper = styled.div`
   align-items: center;
 
   @media (max-width: 768px) {
-    margin-left: 20%;
+    margin-left: 2%;
   }
 `;
 
@@ -54,7 +59,6 @@ export const CardWrapper = styled.div`
     margin-right: auto;
     text-align: center;
   }
-
 `;
 
 export const Card = styled.div`
@@ -80,6 +84,10 @@ export const CardDescription = styled.p`
   font-size: 36px;
   font-family: Montserrat;
   font-weight: 500;
+
+  @media (max-width: 520px) {
+    width: 50%;
+  }
 `;
 
 export const AccessButton = styled(Link)`
@@ -97,6 +105,10 @@ export const AccessButton = styled(Link)`
 
   @media (max-width: 768px) {
     width: 40%;
+  }
+
+  @media (max-width: 520px) {
+    margin-bottom: 10%;
   }
 
   @media (max-width: 375px) {

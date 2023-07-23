@@ -53,7 +53,13 @@ export const Logo = styled.img`
   @media (max-width: 768px) {
     width: 300px;
     height: auto;
-    margin-left: -15%;
+    margin-left: -140%;
+  }
+
+  @media (max-width: 699px) {
+    width: 300px;
+    height: auto;
+    margin-left: -55%;
   }
 `;
 
@@ -73,9 +79,16 @@ export const CompanyTitle = styled.h3`
 
   @media (max-width: 768px) {
     font-size: 36px;
-    margin-left: 5px;
+    margin-left: -20%;
+  }
+
+  @media (max-width: 320px) {
+    width: 300px;
+    height: auto;
+    margin-left: -25%;
   }
 `;
+
 
 export const CompanyDescription = styled.p`
   font-size: 25px;
@@ -93,13 +106,18 @@ export const CompanyDescription = styled.p`
   @media (max-width: 768px) {
     font-size: 20px;
     width: 500px;
-    margin-left: 5px;
+    margin-left: -30%;
   }
 
   @media (max-width: 425px) {
     font-size: 20px;
     width: 300px;
-    margin-left: 0px;
+  }
+
+  @media (max-width: 320px) {
+    width: 250px;
+    height: auto;
+    margin-left: -20%;
   }
 `;
 
@@ -113,7 +131,11 @@ export const ContactContent = styled.section`
   flex: 1;
 
   @media (max-width: 768px) {
-    margin-left: 0;
+    margin-left: -35%;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: -36%;
   }
 `;
 

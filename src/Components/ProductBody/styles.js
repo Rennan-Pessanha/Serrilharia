@@ -105,7 +105,7 @@ export const ProductWrapper = styled.div`
   }
 
   @media (max-width: 320px) {
-    margin-left: -35%;
+    margin-left: -5%;
   }
 `;
 
