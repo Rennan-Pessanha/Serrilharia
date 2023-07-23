@@ -173,6 +173,12 @@ export const Title = styled.h1`
     text-align: center;
     margin-right: 5%;
   }
+
+  @media (max-width: 384px) {
+    font-size: 45px;
+    text-align: center;
+    margin-right: 10%;
+  }
 `;
 
 export const SubTextContent = styled.div`
