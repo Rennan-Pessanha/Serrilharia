@@ -39,13 +39,21 @@ export const Logo = styled.img`
   margin-left: 123px;
   margin-top: 12px;
 
+  @media (max-width: 900px) {
+    margin-left: 0%;
+  }
+
   @media (max-width: 768px) {
     margin-left: 30%;
     margin-top: 20px;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 490px) {
     margin-left: 18%;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: 5%;
   }
 `;
 
@@ -60,8 +68,20 @@ export const NavContent = styled.div`
     margin-left: 10%;
   }
 
-  @media (max-width: 425px) {
-    margin-left: 30%;
+  @media (max-width: 900px) {
+    margin-left: 0%;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 24%;
+  }
+
+  @media (max-width: 588px) {
+    margin-left: 15%;
+  }
+
+  @media (max-width: 490px) {
+    margin-left: 35%;
 
     flex-direction: column;
     display: flex;
@@ -145,6 +165,13 @@ export const Title = styled.h1`
   @media (max-width: 768px) {
     font-size: 64px;
     text-align: center;
+    margin-right: 10%;
+  }
+
+  @media (max-width: 470px) {
+    font-size: 54px;
+    text-align: center;
+    margin-right: 5%;
   }
 `;
 

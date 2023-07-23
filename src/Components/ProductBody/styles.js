@@ -89,11 +89,11 @@ export const ProductWrapper = styled.div`
   }
 
   @media (max-width: 515px) {
-    margin-left: -5%;
+    margin-left: -43%;
   }
 
   @media (max-width: 425px) {
-    margin-left: -10%;
+    margin-left: -27%;
   }
 
   @media (max-width: 384px) {
@@ -101,11 +101,11 @@ export const ProductWrapper = styled.div`
   }
 
   @media (max-width: 375px) {
-    margin-left: -40%;
+    margin-left: -20%;
   }
 
   @media (max-width: 320px) {
-    margin-left: -64%;
+    margin-left: -35%;
   }
 `;
 
