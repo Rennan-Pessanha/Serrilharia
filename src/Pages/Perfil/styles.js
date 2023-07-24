@@ -258,7 +258,7 @@ export const FooterPerfil = styled.div`
   background-color: #242424;
   padding: 20px;
   display: block;
-  width: 100%;
+  width: 110%;
   padding-left: 65px;
   height: auto;
   justify-content: center;
@@ -267,7 +267,15 @@ export const FooterPerfil = styled.div`
 export const FooterContentWrapper = styled.div`
   width: 100%;
   max-width: 1200px;
-  margin-left: 5%;
+  margin-left: 15%;
+
+  @media (max-width: 1400px) {
+    margin-left: 5%;
+  }
+
+  @media (max-width: 1220px) {
+    margin-left: -2%;
+  }
 
   @media (max-width: 768px) {
     margin-left: -5%;
@@ -282,7 +290,7 @@ export const PerfisWrapper = styled.div`
   display: flex;
   margin: 2% 0;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1140px) {
     flex-direction: column;
     align-items: center;
   }
