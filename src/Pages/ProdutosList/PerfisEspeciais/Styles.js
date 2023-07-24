@@ -41,7 +41,7 @@ export const Logo = styled.img`
   margin-top: 12px;
 
   @media (max-width: 768px) {
-    margin-left: 0;
+    margin-left: -10%;
     margin-top: 20px;
   }
 `;
@@ -55,7 +55,7 @@ export const NavContent = styled.div`
 
   @media (max-width: 768px) {
     margin-bottom: 90px;
-    margin-left: 5%;
+    margin-left: -9%;
   }
 
   @media (max-width: 425px) {
@@ -130,29 +130,15 @@ export const Navs = styled(Link)`
 
 
 export const Wrapper = styled.div`
-  display: flex;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 40px;
+
+@media (min-width: 768px) {
   flex-direction: row;
   justify-content: center;
-  margin-top: 40px;
-  margin-right: 200px;
-
-  @media (max-width: 1165px) {
-    flex-direction: column;
-    margin-left: 0%;
-    margin-right: 200px;
-  }
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    margin-left: 20%;
-    margin-right: 200px;
-  }
-
-  @media (max-width: 384px) {
-    flex-direction: column;
-    margin-left: 2%;
-    margin-right: 150px;
-  }
+}
 `;
 
 export const TitleWrapper = styled.div`
@@ -173,11 +159,7 @@ export const ImageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
-  
 
-  @media (max-width: 768px) {
-    width: 100%; 
-}
 `;
 
 export const Image = styled.img`
@@ -214,26 +196,6 @@ export const Paragraph = styled.p`
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-
-    @media (max-width: 1165px) {
-      margin-left: 5%;
-      width: 931px;
-    }
-
-    @media (max-width: 1024px) {
-        margin-left: 5%;
-        width: 931px;
-      }
-
-    @media (max-width: 768px) {
-        margin-left: 29%;
-        font-size: 24px;
-        width: 331px;
-      }
-
-      @media (max-width: 514px) {
-        margin-left: 2%;
-      }
 `;
 
 export const AccessButtonWrapper = styled.div`
@@ -241,51 +203,6 @@ export const AccessButtonWrapper = styled.div`
   margin-left: 35%;
   margin-top: 10%;
   margin-bottom: 10%;
-
-  @media (max-width: 1024px) {
-    margin-left: 25%;
-  }
-
-  @media (max-width: 768px) {
-    width: 300px;
-    margin-left: 20%;
-    margin-top: 25%;
-    font-size: 44px;
-  }
-
-  @media (max-width: 624px) {
-    width: 300px;
-    margin-left: 15%;
-    margin-top: 55%;
-    font-size: 44px;
-  }
-
-  @media (max-width: 514px) {
-    width: 300px;
-    margin-left: 30%;
-    margin 
-  }
-
-  @media (max-width: 425px) {
-    width: 300px;
-    margin-top: 25%;
-    margin-left: 0%;
-    margin-bottom: 10%;
-  }
-
-  @media (max-width: 375px) {
-    width: 300px;
-    margin-top: 10%;
-    margin-left: 1%;
-    margin-bottom: 10%;
-  }
-
-  @media (max-width: 375px) {
-    width: 300px;
-    margin-top: 20%;
-    margin-left: 5%;
-    margin-bottom: 10%;
-  }
 `;
 
 export const AccessButton = styled(Link)`
@@ -306,33 +223,4 @@ export const AccessButton = styled(Link)`
     background-color: #f0f0f0;
   }
 
-  @media (max-width: 1024px) {
-    margin-left: 25%;
-  }
-
-  @media (max-width: 768px) {
-    width: 300px;
-    margin-left: 30%;
-    margin-top: 50%;
-    font-size: 44px;
-  }
-
-  @media (max-width: 624px) {
-    width: 300px;
-    margin-left: 30%;
-    margin-top: 55%;
-    font-size: 44px;
-  }
-
-  @media (max-width: 514px) {
-    width: 300px;
-    margin-left: 30%;
-    margin-top: 75%;
-    font-size: 44px;
-  }
-  
-  @media (max-width: 400px) {
-    margin-top: 95%;
-    margin-left: 3%;
-  }
 `;
