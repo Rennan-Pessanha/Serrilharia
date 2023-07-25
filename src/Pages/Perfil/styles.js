@@ -13,7 +13,7 @@ export const Container = styled.div`
 
 
   @media (max-width: 768px) {
-    width: 150%;
+    width: 120%;
     padding-right: 36px;
     padding-left: 36px;
   }
@@ -136,42 +136,16 @@ export const Title = styled.h1`
 `;
 
 export const PerfilContent = styled.div`
-  margin-top: 50px;
-  margin-left: 10.7%;
-  margin-right: auto;
+  display: block;
+  margin: auto;
   max-width: 800px;
 
   @media (max-width: 768px) {
-    margin-left: 8%;
-    width: 550px;
-    margin-top: 10%;
+    margin-top: 15%;
   }
 
-  @media (max-width: 667px) {
-    margin-left: 2%;
-    width: 450px;
-    margin-top: 10%;
-  }
-
-  @media (max-width: 465px) {
-    margin-left: 1%;
-    width: 340px;
-    margin-top: 10%;
-  }
-
-  @media (max-width: 425px) {
-    margin-left: 1%;
-    width: 340px;
-  }
-
-  @media (max-width: 375px) {
-    margin-left: 10%;
-    width: 240px;
-  }
-
-  @media (max-width: 320px) {
-    margin-left: 10%;
-    width: 240px;
+  @media (max-width: 616px) {
+    margin-left: 5%;
   }
 `;
 
@@ -197,14 +171,27 @@ export const PerfilText = styled.p`
 
   @media (max-width: 768px) {
     font-size: 5vw;
+    width: 600px;
+  }
+
+  @media (max-width: 616px) {
+    font-size: 5vw;
+    width: 500px;
+  }
+
+  @media (max-width: 528px) {
+    width: 400px;
+  }
+
+  @media (max-width: 439px) {
+    width: 350px;
   }
 `;
 
 export const CompanyContent = styled.div`
-  margin-top: 5%;
   text-align: center;
-  margin-left: -20%;
-  margin-bottom: 10%;
+  display: block;
+  margin: auto;
 
   @media (max-width: 768px) {
     margin-left: -35%;
