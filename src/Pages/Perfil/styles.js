@@ -11,6 +11,11 @@ export const Container = styled.div`
   padding: 0 10px;
   padding-right: 65px;
 
+  @media (max-width: 2000px) {
+    width: 110%;
+    padding-right: 80px;
+  }
+
 
   @media (max-width: 768px) {
     width: 155%;
@@ -39,7 +44,7 @@ export const Logo = styled.img`
   margin-top: 12px;
 
   @media (max-width: 768px) {
-    margin-left: -33%;
+    margin-left: -40%;
     margin-top: 20px;
   }
 `;
@@ -52,7 +57,7 @@ export const NavContent = styled.div`
   height: 23px;
 
   @media (max-width: 768px) {
-    margin-left: -33%;
+    margin-left: -13%;
   }
 
   @media (max-width: 425px) {
@@ -115,7 +120,24 @@ export const Navs = styled(Link)`
   @media (max-width: 320px) {
     margin-top: 20px;
   }
+
+  @media (max-width: 1032px) {
+    margin-left: -20%;
+  }
 `;
+
+export const TextsContaints = styled.div`
+display: block;
+margin: auto;
+width: 50%;
+margin-left: 25%;
+
+@media (max-width: 768px) {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+`
 
 
 
@@ -131,7 +153,7 @@ export const Title = styled.h1`
   font-weight: 800;
 
   @media (max-width: 768px) {
-    font-size: 5vw;
+    font-size: 30px;
   }
 `;
 
@@ -155,10 +177,6 @@ export const Perfilh3 = styled.h3`
   font-weight: 800;
   font-family: Montserrat;
   margin-bottom: 5px;
-
-  @media (max-width: 768px) {
-    font-size: 3.5vw;
-  }
 `;
 
 export const PerfilText = styled.p`
@@ -168,68 +186,18 @@ export const PerfilText = styled.p`
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 20px;
-
-  @media (max-width: 768px) {
-    font-size: 5vw;
-    width: 600px;
-  }
-
-  @media (max-width: 616px) {
-    font-size: 5vw;
-    width: 500px;
-  }
-
-  @media (max-width: 528px) {
-    width: 400px;
-  }
-
-  @media (max-width: 439px) {
-    width: 350px;
-  }
+  width: 100%;
 `;
 
 export const CompanyContent = styled.div`
   text-align: center;
   display: block;
   margin: auto;
-
-  @media (max-width: 768px) {
-    margin-left: -35%;
-  }
-
-  @media (max-width: 425px) {
-    margin-top: 10%;
-  }
-
-  @media (max-width: 320px) {
-    margin-left: -42%;
-  }
+  width: 100%;
 `;
 
 export const History = styled.div`
-  margin-left: auto;
-  margin-right: auto;
   max-width: 800px;
-
-  @media (max-width: 768px) {
-    max-width: 600px;
-  }
-
-  @media (max-width: 425px) {
-    max-width: 400px;
-  }
-
-  @media (max-width: 384px) {
-    max-width: 320px;
-  }
-
-  @media (max-width: 360px) {
-    max-width: 354px;
-  }
-
-  @media (max-width: 320px) {
-    max-width: 310px;
-  }
 `;
 
 export const Textp = styled.p`

@@ -30,6 +30,7 @@ export const Perfil = () => {
             </C.NavContent>
         </C.Content>
 
+      <C.TextsContaints>
         <C.PerfilContent>
     <div>
       <C.Perfilh3>Missão:</C.Perfilh3>
@@ -61,6 +62,7 @@ export const Perfil = () => {
       </C.Textp>
     </C.History>
         </C.CompanyContent>
+      </C.TextsContaints>
 
       </C.Container>
       <C.FooterPerfil>
