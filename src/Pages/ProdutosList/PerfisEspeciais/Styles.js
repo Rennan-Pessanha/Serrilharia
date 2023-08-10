@@ -130,21 +130,34 @@ export const Navs = styled(Link)`
 
 
 export const Wrapper = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-margin-top: 40px;
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 0%;
 
-@media (min-width: 768px) {
-  flex-direction: row;
-  justify-content: center;
-}
+  @media (max-width: 1440px) {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  @media (max-width: 768px) {
+    display: block;
+    margin: 0;
+    padding: 0 15px;
+  }
 `;
 
 export const TitleWrapper = styled.div`
   margin-bottom: 20px;
   text-align: center;
-  margin-right: 170px;
+  margin-right: 15%;
+
+  @media (max-width: 768px) {
+    margin-right: 30%;
+  }
+
+  @media (max-width: 425px) {
+    margin-right: 40%;
+  }
 `;
 
 export const Title = styled.h2`
@@ -155,23 +168,35 @@ export const Title = styled.h2`
 `;
 
 export const ImageWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: inline-block;
   margin-bottom: 20px;
+  margin-left: 40px;
 
+  @media (max-width: 768px) {
+    display: block;
+  }
+
+  @media (max-width: 425px) {
+    display: block;
+    margin-right: 20%;
+    margin-left: 0%;
+
+  }
 `;
 
 export const Image = styled.img`
+  width: 100%;
+  max-width: 350px;
+  border: 6px solid #C2F0FF;
+  height: 300px;
+  margin-left: 5%;
+  margin-right: 20%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
-width: 375px;
-border: 6px solid #C2F0FF;
-height: 261px;
-margin-left: 29px;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-@media (max-width: 768px) {
-    width: 100%;
+  @media (max-width: 768px) {
+    width: 50%;
+    max-width: 100%;
+    margin-left: 6%;
   }
 `;
 
@@ -182,11 +207,25 @@ export const ImageName = styled.p`
   margin-top: 8px;
 `;
 
+export const TextWrapper = styled.div`
+  display: block;
+  overflow: none;
+  margin-bottom: 100px;
+  width: 50%;
+  height: auto;
+  margin-left: 20%;
+
+  @media (max-width: 768px) {
+    margin-left: 10%;
+  }
+
+
+`
+
 export const Paragraph = styled.p`
 
-    margin-left: 20%;
-    width: 1031px;
-    height: 99px;
+    width: 100%;
+    height: 100%;
 
     color: #FFF;
     text-align: center;
@@ -199,10 +238,42 @@ export const Paragraph = styled.p`
 `;
 
 export const AccessButtonWrapper = styled.div`
-  display: flex;
+  display: block;
   margin-left: 35%;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
+
+  @media (max-width: 1165px) {
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 20%;
+  }
+
+
+  @media (max-width: 860px) {
+  }
+
+  @media (max-width: 685px) {
+    margin-left: 22%;
+  }
+
+  @media (max-width: 480px) {
+
+    margin-left: 6%;
+
+  }
+
+  @media (max-width: 410px) {
+    margin-left: 2%;
+  }
+
+  @media (max-width: 375px) {
+    margin-left: 10%;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: 2%;
+  }
 `;
 
 export const AccessButton = styled(Link)`
@@ -221,6 +292,10 @@ export const AccessButton = styled(Link)`
 
   &:hover {
     background-color: #f0f0f0;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 44px;
   }
 
 `;

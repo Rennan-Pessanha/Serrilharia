@@ -54,11 +54,13 @@ export const PerfisEspeciais = () => {
             </C.ImageWrapper>
           </C.Wrapper>
 
+        <C.TextWrapper>
           <C.Paragraph>
             Lorem ipsum dolor sit amet consectetur. Ut viverra enim egestas blandit sodales risus libero. Elementum semper urna faucibus lobortis. Justo rhoncus blandit gravida massa. Risus donec id cursus blandit amet tempor eu. Blandit diam nunc quis urna. Blandit dui dictum augue ultricies tincidunt non ac non vulputate. Quam etiam donec ornare ut. Euismod bibendum ut morbi elementum in tempus dignissim non. Urna feugiat proin purus leo urna.
           </C.Paragraph>
-
-            <C.AccessButtonWrapper>
+          </C.TextWrapper>
+          
+          <C.AccessButtonWrapper>
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>
             </C.AccessButtonWrapper>
 

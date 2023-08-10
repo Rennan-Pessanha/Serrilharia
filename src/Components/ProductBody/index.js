@@ -34,7 +34,7 @@ export const ProductBody = () => {
             <C.ProductInfo>
               <C.ProductTitle>Perfis de Perfiladeira</C.ProductTitle>
               <p>Perfis de Perfiladeira</p>
-              <C.AccessButton to="/PerfisEspeciais">Acessar</C.AccessButton>
+              <C.AccessButton to="/PerfisPerfiladeira">Acessar</C.AccessButton>
             </C.ProductInfo>
           </C.ProductContent>
 
