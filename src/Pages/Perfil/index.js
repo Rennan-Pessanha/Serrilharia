@@ -8,7 +8,9 @@ export const Perfil = () => {
     <>
       <C.Container>
       <C.Content>
-            <C.Logo src='./Imagem/LogoSerralheria.png' />
+        <Link to="/">
+          <C.Logo src='./Imagem/LogoSerralheria.png' />
+        </Link>
       
             <C.NavContent>
 
@@ -97,10 +99,9 @@ export const Perfil = () => {
     <C.ContactContent>
         <C.ContactTitle>Contato</C.ContactTitle>
         <C.ContactList>
-            <C.ContactListItem>Whatsapp:</C.ContactListItem>
-            <C.ContactListItem>Email:</C.ContactListItem>
-            <C.ContactListItem>Telefone:</C.ContactListItem>
-            <C.ContactListItem>Fale Conosco:</C.ContactListItem>
+            <C.ContactListItem>Whatsapp: +55 16 99154-7295 </C.ContactListItem>
+            <C.ContactListItem>Email: s.panissa@uol.com.br</C.ContactListItem>
+            <C.ContactListItem>Telefone: ( 16 )   3442-8384</C.ContactListItem>
         </C.ContactList>
     </C.ContactContent>
       </C.ContentF>

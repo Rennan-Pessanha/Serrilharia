@@ -8,7 +8,9 @@ export const PerfisEspeciais = () => {
     <div>
     <C.Container>
         <C.Content>
+          <Link to="/">
             <C.Logo src='./Imagem/LogoSerralheria.png' />
+          </Link>
             <C.Content>
             <C.NavContent>
 
@@ -40,23 +42,24 @@ export const PerfisEspeciais = () => {
           <C.Wrapper>
             <C.ImageWrapper>
               <C.Image src="../Imagem/Produtos/PerfisEspeciais/Especial1.jpg" />
-              <C.ImageName>Perfil cartola 6,35 x 65 x 180 x 30 x 6000S</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
             <C.Image src="../Imagem/Produtos/PerfisEspeciais/Especial2.jpg" />
-              <C.ImageName>Perfil cartola 6,35 x 65 x 180 x 30 x 6000S</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
             <C.Image src="../Imagem/Produtos/PerfisEspeciais/Especial3.jpg" />
-              <C.ImageName>Perfil cartola 6,35 x 65 x 180 x 30 x 6000S</C.ImageName>
             </C.ImageWrapper>
           </C.Wrapper>
 
         <C.TextWrapper>
           <C.Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Ut viverra enim egestas blandit sodales risus libero. Elementum semper urna faucibus lobortis. Justo rhoncus blandit gravida massa. Risus donec id cursus blandit amet tempor eu. Blandit diam nunc quis urna. Blandit dui dictum augue ultricies tincidunt non ac non vulputate. Quam etiam donec ornare ut. Euismod bibendum ut morbi elementum in tempus dignissim non. Urna feugiat proin purus leo urna.
+          Os nossos "Perfis Especiais" são produtos de aço customizados que são projetados para atender às necessidades específicas dos nossos clientes. Eles são fabricados com precisão a partir de materiais de alta qualidade e são conhecidos pela sua versatilidade e capacidade de atender a uma ampla gama de aplicações industriais e estruturais.
+
+            <br /> <br />
+
+          O que torna os Perfis Especiais verdadeiramente especiais é a sua capacidade de serem personalizados de acordo com as especificações únicas de cada projeto. Isso significa que podemos criar perfis com diferentes formas, tamanhos, dimensões e características para atender às demandas específicas dos nossos clientes. Seja para projetos arquitetônicos complexos, maquinaria industrial ou estruturas de suporte, nossos Perfis Especiais podem ser adaptados para se encaixar perfeitamente.
           </C.Paragraph>
           </C.TextWrapper>
           

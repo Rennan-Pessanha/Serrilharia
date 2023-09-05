@@ -39,7 +39,7 @@ export const ProductBody = () => {
           </C.ProductContent>
 
           <C.ProductContent reversed>
-            <C.ProductImage src="./Imagem/Produtos/Soldado/Soldado5.png" alt="Outro Produto" />
+            <C.ProductImage src="./Imagem/Produtos-Homepage/perfil soldado com sapata furacao.jpg" alt="Outro Produto" />
             <C.ProductInfo>
               <C.ProductTitle leftT>Perfil Soldado</C.ProductTitle>
               <p>Perfil Soldado</p>
@@ -48,24 +48,22 @@ export const ProductBody = () => {
           </C.ProductContent>
 
           <C.ProductContent>
-            <C.ProductImage src="./Imagem/Produtos-Homepage/PerfisEspeciais.png" alt="Produto" />
+            <C.ProductImage src="./Imagem/Produtos-Homepage/Tubosin5.jpeg" alt="Produto" />
             <C.ProductInfo>
               <C.ProductTitle>Tubos Industriais</C.ProductTitle>
               <p>Descrição do Produto</p>
-              <C.AccessButton>Acessar</C.AccessButton>
+              <C.AccessButton to="/TubosIndustriais">Acessar</C.AccessButton>
             </C.ProductInfo>
           </C.ProductContent>
 
           <C.ProductContent reversed>
-            <C.ProductImage src="./Imagem/Produtos-Homepage/PerfisEspeciais.png" alt="Outro Produto" />
+            <C.ProductImage src="./Imagem/Produtos-Homepage/Perfillaminado1.jpeg" alt="Outro Produto" />
             <C.ProductInfo>
               <C.ProductTitle leftT>Perfil Laminado</C.ProductTitle>
               <p>Perfil Laminado</p>
-              <C.AccessButton left>Acessar</C.AccessButton>
+<C.AccessButton left to="/Laminado">Acessar</C.AccessButton>
             </C.ProductInfo>
           </C.ProductContent>
-
-          {/* Adicione outras variações de ProductContent conforme necessário */}
 
         </C.ProductWrapper>
 

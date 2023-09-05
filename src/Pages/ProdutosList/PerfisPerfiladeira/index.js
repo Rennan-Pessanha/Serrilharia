@@ -3,12 +3,14 @@ import * as C from './Styles.js'
 import Footer from '../../../Components/Footer/index.js'
 import { Link } from 'react-router-dom';
 
-export const PerfisPerfiladeira = () => {
+export const PerfisDePerfiladeira = () => {
   return (
     <div>
     <C.Container>
         <C.Content>
-            <C.Logo src='./Imagem/LogoSerralheria.png' />
+            <Link to="/">
+              <C.Logo src='./Imagem/LogoSerralheria.png' />
+            </Link>
             <C.Content>
             <C.NavContent>
 
@@ -34,33 +36,38 @@ export const PerfisPerfiladeira = () => {
 
 
           <C.TitleWrapper>
-            <C.Title>Perfis Perfiladeiras</C.Title>
+            <C.Title>Perfis de Perfiladeira</C.Title>
           </C.TitleWrapper>
 
           <C.Wrapper>
             <C.ImageWrapper>
-              <C.Image src="./Imagem/Produtos/PerfisDePerfiladeira/Perfiledeiras3.jpeg" />
-              <C.ImageName>Tubular 4,75 x 200 x 200 x 7500</C.ImageName>
+              <C.Image src="../Imagem/Produtos/PerfisDePerfiladeira/Perfiladeira5.jpeg" />
             </C.ImageWrapper>
 
             <C.ImageWrapper>
-            <C.Image src="./Imagem/Produtos/PerfisDePerfiladeira/Perfiladeira4.jpeg" />
-              <C.ImageName>Tubular 4,75 x 250 x 80 x 8000</C.ImageName>
+              <C.Image src="../Imagem/Produtos/PerfisDePerfiladeira/Perfiladeira1.jpeg" />
             </C.ImageWrapper>
 
             <C.ImageWrapper>
-            <C.Image src="./Imagem/Produtos/PerfisDePerfiladeira/Perfiladeira5.jpeg" />
-              <C.ImageName>Tubular 390 x 400 x 8,00 x 7200</C.ImageName>
+              <C.Image src="../Imagem/Produtos/PerfisDePerfiladeira/Perfi5.jpeg" />
             </C.ImageWrapper>
           </C.Wrapper>
 
+        <C.TextWrapper>
           <C.Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Ut viverra enim egestas blandit sodales risus libero. Elementum semper urna faucibus lobortis. Justo rhoncus blandit gravida massa. Risus donec id cursus blandit amet tempor eu. Blandit diam nunc quis urna. Blandit dui dictum augue ultricies tincidunt non ac non vulputate. Quam etiam donec ornare ut. Euismod bibendum ut morbi elementum in tempus dignissim non. Urna feugiat proin purus leo urna.
-          </C.Paragraph>
+          Os nossos "Perfis de Perfiladeira" são projetados para oferecer uma solução eficaz e eficiente na formação de diferentes tipos de perfis metálicos. Fabricados com precisão a partir de materiais de alta qualidade, esses perfisadeiras são projetados para atender às demandas de produção em larga escala e personalização de perfis metálicos.
 
+            <br /> <br />
+
+            As Perfiladeiras são conhecidas por sua capacidade de moldar metais em uma variedade de formas e tamanhos. Elas são essenciais em setores como a construção civil, fabricação de estruturas metálicas, sistemas de dutos e muito mais. Nossos Perfis de Perfiladeira são projetados para oferecer uma operação suave e consistente, garantindo alta qualidade e precisão em cada perfil produzido.
+
+          </C.Paragraph>
+          </C.TextWrapper>
+          
           <C.AccessButtonWrapper>
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>
             </C.AccessButtonWrapper>
+
     </C.Container>
     <Footer />
 
@@ -69,4 +76,4 @@ export const PerfisPerfiladeira = () => {
   )
 }
 
-export default PerfisPerfiladeira
+export default PerfisDePerfiladeira

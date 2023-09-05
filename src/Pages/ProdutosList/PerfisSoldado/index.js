@@ -8,7 +8,9 @@ export const PerfilSoldado = () => {
     <div>
     <C.Container>
         <C.Content>
-            <C.Logo src='./Imagem/LogoSerralheria.png' />
+            <Link to="/">
+              <C.Logo src='./Imagem/LogoSerralheria.png' />
+            </Link>
             <C.Content>
             <C.NavContent>
 
@@ -39,24 +41,30 @@ export const PerfilSoldado = () => {
 
           <C.Wrapper>
             <C.ImageWrapper>
-              <C.Image src="./Imagem/Produtos/Soldado/Soldado1.png" />
+              <C.Image src="./Imagem/Produtos/Soldado/conjunto 1.jpg" />
               <C.ImageName>Tubular 4,75 x 200 x 200 x 7500</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
-            <C.Image src="./Imagem/Produtos/Soldado/Soldado2.png" />
+            <C.Image src="./Imagem/Produtos/Soldado/soldado7.jpg" />
               <C.ImageName>Tubular 4,75 x 250 x 80 x 8000</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
-            <C.Image src="./Imagem/Produtos/Soldado/Soldado3.png" />
+            <C.Image src="./Imagem/Produtos/Soldado/Soldado1.png" />
               <C.ImageName>Tubular 390 x 400 x 8,00 x 7200</C.ImageName>
             </C.ImageWrapper>
           </C.Wrapper>
 
+          <C.TextWrapper>
           <C.Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Ut viverra enim egestas blandit sodales risus libero. Elementum semper urna faucibus lobortis. Justo rhoncus blandit gravida massa. Risus donec id cursus blandit amet tempor eu. Blandit diam nunc quis urna. Blandit dui dictum augue ultricies tincidunt non ac non vulputate. Quam etiam donec ornare ut. Euismod bibendum ut morbi elementum in tempus dignissim non. Urna feugiat proin purus leo urna.
+
+          Os nossos "Perfis Soldados" são projetados para fornecer força e estabilidade em uma variedade de aplicações, onde a resistência estrutural é essencial. Fabricados com precisão a partir de materiais de alta qualidade, esses perfis são conhecidos por sua confiabilidade e durabilidade.
+                  <br /> <br />
+          Os Perfis Soldados são frequentemente utilizados em setores como a construção civil, indústria naval, fabricação de equipamentos pesados e muito mais. Sua construção soldada oferece uma excelente relação resistência-peso, tornando-os ideais para aplicações que exigem suporte estrutural sólido.
+
           </C.Paragraph>
+          </C.TextWrapper>
 
           <C.AccessButtonWrapper>
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>

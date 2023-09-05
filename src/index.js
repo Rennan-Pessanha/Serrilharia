@@ -10,6 +10,8 @@ import PerfisEspeciais from './Pages/ProdutosList/PerfisEspeciais';
 import PerfisTubular from './Pages/ProdutosList/PerfisTubular';
 import PerfisPerfiladeira from './Pages/ProdutosList/PerfisPerfiladeira';
 import PerfilSoldado from './Pages/ProdutosList/PerfisSoldado';
+import TubosIndustriais from './Pages/ProdutosList/TubosIndustriais';
+import Laminado from './Pages/ProdutosList/Laminado';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,7 +26,8 @@ root.render(
       <Route path="/PerfisTubular" element={<PerfisTubular />} />
       <Route path="/PerfisPerfiladeira" element={<PerfisPerfiladeira />} />
       <Route path="/PerfilSoldado" element={ <PerfilSoldado />} />
-      
+      <Route path="/TubosIndustriais" element={ <TubosIndustriais />} />
+      <Route path="/Laminado" element={ <Laminado />} />
     </Routes>
   </BrowserRouter>
 </React.StrictMode>,

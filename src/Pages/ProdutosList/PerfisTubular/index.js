@@ -8,7 +8,9 @@ export const PerfisTubular = () => {
     <div>
     <C.Container>
         <C.Content>
-            <C.Logo src='./Imagem/LogoSerralheria.png' />
+              <Link to="/">
+                <C.Logo src='./Imagem/LogoSerralheria.png' />
+              </Link>
             <C.Content>
             <C.NavContent>
 
@@ -54,9 +56,13 @@ export const PerfisTubular = () => {
             </C.ImageWrapper>
           </C.Wrapper>
 
+          <C.TextWrapper>
           <C.Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Ut viverra enim egestas blandit sodales risus libero. Elementum semper urna faucibus lobortis. Justo rhoncus blandit gravida massa. Risus donec id cursus blandit amet tempor eu. Blandit diam nunc quis urna. Blandit dui dictum augue ultricies tincidunt non ac non vulputate. Quam etiam donec ornare ut. Euismod bibendum ut morbi elementum in tempus dignissim non. Urna feugiat proin purus leo urna.
+          Os nossos "Perfis Tubulares" são projetados para oferecer versatilidade e resistência em uma variedade de aplicações. Fabricados com precisão a partir de materiais de alta qualidade, esses perfis apresentam uma seção transversal oca, tornando-os ideais para uma ampla gama de usos, desde estruturas de suporte até projetos de design arquitetônico.
+                    <br /> <br />
+          Os Perfis Tubulares são conhecidos por sua força e durabilidade, tornando-os uma escolha popular em setores como a construção civil, fabricação de móveis, indústria automobilística e muito mais. Sua seção transversal oca oferece uma excelente relação resistência-peso, o que os torna ideais para aplicações que exigem componentes estruturais leves, mas robustos.
           </C.Paragraph>
+          </C.TextWrapper>
 
           <C.AccessButtonWrapper>
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>

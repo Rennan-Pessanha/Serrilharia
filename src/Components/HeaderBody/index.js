@@ -6,7 +6,9 @@ export const HeaderBody = () => {
   return (
     <C.Container>
         <C.Content>
-            <C.Logo src='./Imagem/LogoSerralheria.png' />
+        <Link to="/">
+          <C.Logo src='./Imagem/LogoSerralheria.png' />
+        </Link>
             <C.NavContent>
 
             <C.Navs>

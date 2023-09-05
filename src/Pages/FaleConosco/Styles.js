@@ -62,7 +62,7 @@ export const Navs = styled(Link)`
   line-height: 24px;
 
   &:hover {
-    color: red;
+
     transform: scale(1.2);
   }
 
