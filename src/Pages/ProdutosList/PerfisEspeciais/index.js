@@ -34,6 +34,7 @@ export const PerfisEspeciais = () => {
         </C.Content>
         </C.Content>
 
+        <C.ProductAlign>
 
           <C.TitleWrapper>
             <C.Title>Perfis Especiais</C.Title>
@@ -66,7 +67,7 @@ export const PerfisEspeciais = () => {
           <C.AccessButtonWrapper>
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>
             </C.AccessButtonWrapper>
-
+          </C.ProductAlign>
     </C.Container>
     <Footer />
 

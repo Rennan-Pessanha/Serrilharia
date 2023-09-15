@@ -7,6 +7,7 @@ export const Perfil = () => {
   return (
     <>
       <C.Container>
+  
       <C.Content>
         <Link to="/">
           <C.Logo src='./Imagem/LogoSerralheria.png' />

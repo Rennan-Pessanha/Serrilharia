@@ -24,6 +24,7 @@ export const Container = styled.div`
   }
 `;
 
+
 export const Content = styled.div`
   height: 200px;
   display: flex;
@@ -128,15 +129,39 @@ export const Navs = styled(Link)`
 
 export const TextsContaints = styled.div`
 display: block;
-margin: auto;
-width: 50%;
+width: 800px;
 margin-left: 25%;
 
+
 @media (max-width: 768px) {
+  width: 600px;
   margin-left: 5%;
   margin-top: 2%;
 }
 
+@media (max-width: 654px) {
+  width: 500px;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+@media (max-width: 654px) {
+  width: 400px;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+@media (max-width: 425npx) {
+  width: 250px;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+@media (max-width: 412px) {
+  width: 250px;
+  margin-left: 10%;
+  margin-top: 2%;
+}
 `
 
 
@@ -220,24 +245,21 @@ export const FooterPerfil = styled.div`
 `;
 
 export const FooterContentWrapper = styled.div`
-  width: 100%;
-  max-width: 1200px;
-  margin-left: 15%;
+width: 60%;
+margin-left: 14%;
+overflow: hidden;
 
   @media (max-width: 1400px) {
-    margin-left: 5%;
+
   }
 
   @media (max-width: 1220px) {
-    margin-left: -2%;
   }
 
   @media (max-width: 768px) {
-    margin-left: -5%;
   }
 
   @media (max-width: 425px) {
-    margin-left: -10%;
   }
 `;
 

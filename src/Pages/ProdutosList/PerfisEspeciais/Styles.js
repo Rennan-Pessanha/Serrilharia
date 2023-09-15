@@ -128,10 +128,36 @@ export const Navs = styled(Link)`
   }
 `;
 
+export const ProductAlign = styled.div`
+display: block;
+margin-left: 13%;
+margin-bottom: 5%;
+width: 1300px;
+
+@media (max-width: 768px) {
+  margin-left: -5%;
+}
+
+@media (max-width: 384px) { 
+  margin-left: -4%;
+  width: 700px;
+}
+
+
+@media (max-width: 375px) {
+  margin-left: -5%;
+  width: 700px;
+}
+
+@media (max-width: 320px) {
+  margin-left: -10%;
+  width: 700px;
+}
+`
+
 
 export const Wrapper = styled.div`
   display: inline-block;
-  margin-left: 15%;
   margin-right: 0%;
 
   @media (max-width: 1440px) {
@@ -219,6 +245,20 @@ export const TextWrapper = styled.div`
     margin-left: 10%;
   }
 
+  @media (max-width: 384px) { 
+    margin-left: 3%;
+  }
+
+  @media (max-width: 375px) {
+    margin-left: 5%;
+    width: 45%;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: 7%;
+    width: 40%;
+  }
+
 
 `
 
@@ -239,8 +279,8 @@ export const Paragraph = styled.p`
 
 export const AccessButtonWrapper = styled.div`
   display: block;
-  margin-left: 35%;
-  margin-bottom: 5%;
+  margin: auto;
+  margin-left: 30%;
 
   @media (max-width: 1165px) {
   }
@@ -296,6 +336,11 @@ export const AccessButton = styled(Link)`
 
   @media (max-width: 375px) {
     font-size: 44px;
+  }
+
+  @media (max-width: 320px) {
+    margin-left: 7%;
+    width: 40%;
   }
 
 `;

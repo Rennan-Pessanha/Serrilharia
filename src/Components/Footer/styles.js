@@ -1,179 +1,209 @@
 import styled from 'styled-components';
 
-export const Container = styled.footer`
-width: 110%;
-height: auto;
-background-color: #242424;
-overflow: hidden;
-padding: 0 20px;
-padding-right: 50px;
-padding-bottom: 20px;
+export const FooterPerfil = styled.div`
+  background-color: #242424;
+  padding: 20px;
+  display: block;
+  width: 110%;
+  padding-left: 65px;
+  height: auto;
+  justify-content: center;
+`;
 
+export const FooterContentWrapper = styled.div`
+  width: 60%;
+  margin-left: 14%;
+  overflow: hidden;
 
-@media (max-width: 768px) {
-  width: 150%;
-  padding-right: 16px;
-  padding-left: 16px;
-}
+  @media (max-width: 1400px) {
+
+  }
+
+  @media (max-width: 1220px) {
+  }
+
+  @media (max-width: 768px) {
+  }
+
+  @media (max-width: 425px) {
+  }
+`;
+
+export const PerfisWrapper = styled.div`
+  display: flex;
+  margin: 2% 0;
+
+  @media (max-width: 1140px) {
+    flex-direction: column;
+    align-items: center;
+  }
+`;
+
+export const PerfisContents = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 0;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+  }
+`;
+
+export const PerfilImage = styled.img`
+  width: 94.494px;
+  height: 94.494px;
+`;
+
+export const PerfilContentTitle = styled.h3`
+  margin-top: 10px;
+  color: #FFF;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 800;
+`;
+
+export const PerfilDescription = styled.p`
+  margin-top: 5px;
+  color: #FFF;
+  font-size: 17px;
+  font-family: Montserrat;
+
+  @media (max-width: 768px) {
+    width: 300px;
+  }
+
+  @media (max-width: 320px) {
+    width: 200px;
+  }
 `;
 
 
-export const Content = styled.article`
+export const ContentF = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  margin: 0; /* Certifique-se de que não há margens aplicadas */
-  padding: 0; /* Certifique-se de que não há preenchimentos aplicados */
-
-  @media (max-width: 1187px) {
-    flex-direction: column;
-  }
+  height: 100%;
 
   @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
 
-export const LogoContent = styled.section`
+export const LogoContent = styled.div`
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 20px 0;
 
   @media (max-width: 768px) {
     margin-bottom: 20px;
   }
 `;
 
-export const Logo = styled.img`
-  width: 475px;
-  height: 400px;
+export const LogoF = styled.img`
+  width: 100%;
+  max-width: 475px;
+  height: auto;
 
   @media (max-width: 768px) {
-    width: 300px;
-    height: auto;
-    margin-left: -140%;
-  }
-
-  @media (max-width: 699px) {
-    width: 300px;
-    height: auto;
-    margin-left: -55%;
+    max-width: 300px;
+    margin-left: -15%;
   }
 `;
 
-export const CompanyContent = styled.section`
+export const CompanyFContent = styled.div`
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  flex: 1;
+  align-items: center;
+  margin: 0% 0;
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+    margin-right: 10%;
+  }
 `;
 
 export const CompanyTitle = styled.h3`
   color: #fff;
-  font-size: 49px;
+  font-size: 24px;
   font-family: Montserrat;
   font-weight: 800;
-  margin-left: 110px;
-
-  @media (max-width: 768px) {
-    font-size: 36px;
-    margin-left: -20%;
-  }
 
   @media (max-width: 320px) {
     width: 300px;
-    height: auto;
-    margin-left: -25%;
+    margin-right: -80px;
   }
 `;
 
-
 export const CompanyDescription = styled.p`
-  font-size: 25px;
+  font-size: 24px;
   font-weight: 400;
   color: #ffffff;
   font-family: Montserrat;
   margin-top: 8px;
-  margin-left: 75px;
-
-  @media (max-width: 1187px) {
-    width: 800px;
-    
-  }
+  text-align: center;
 
   @media (max-width: 768px) {
-    font-size: 20px;
-    width: 500px;
-    margin-left: -30%;
+    font-size: 24px;
+    width: 600px;
   }
 
   @media (max-width: 425px) {
-    font-size: 20px;
     width: 300px;
+    margin-right: 5px;
   }
 
   @media (max-width: 320px) {
-    width: 250px;
-    height: auto;
-    margin-left: -20%;
+    width: 300px;
+    margin-right: 50px;
   }
 `;
 
-
-
-export const ContactContent = styled.section`
-  display: flex;
-  margin-left: 20px;
-  flex-direction: column;
-  justify-content: center;
+export const ContactContent = styled.div`
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2% 0;
 
   @media (max-width: 768px) {
-    margin-left: -35%;
+    margin-top: 20px;
   }
 
-  @media (max-width: 320px) {
-    margin-left: -36%;
+  @media (max-width: 425px) {
+    margin-top: 20px;
+    margin-right: 60px;
   }
 `;
 
 export const ContactTitle = styled.h3`
   color: #fff;
-  font-size: 42px;
   font-family: Montserrat;
-  margin-left: 120px;
+  font-size: 24px;
   font-weight: 800;
-
-  @media (max-width: 768px) {
-    font-size: 30px;
-    margin-left: -10px;
-  }
 `;
 
 export const ContactList = styled.ul`
   list-style: none;
+  font-size: 2vw;
   padding: 0;
   margin: 0;
   color: #fff;
-  font-size: 24px;
+  font-size: 3vw;
   font-family: Montserrat;
 
   @media (max-width: 768px) {
-    font-size: 18px;
-    
   }
 `;
 
 export const ContactListItem = styled.li`
   font-size: 16px;
-  margin-left: 155px;
   color: #ffffff;
   margin-bottom: 8px;
 
   @media (max-width: 768px) {
-    font-size: 18px;
-    margin-left: 10px;
   }
 `;
