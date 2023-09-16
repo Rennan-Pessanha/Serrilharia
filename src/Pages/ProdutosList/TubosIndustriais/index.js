@@ -33,7 +33,7 @@ export const TubosIndustriais = () => {
 
         </C.Content>
         </C.Content>
-
+        <C.ProductAlign>
 
           <C.TitleWrapper>
             <C.Title>Tubos Industriais</C.Title>
@@ -42,17 +42,14 @@ export const TubosIndustriais = () => {
           <C.Wrapper>
             <C.ImageWrapper>
               <C.Image src="../Imagem/Produtos/TubosIndustriais/tubosin3.jpeg" />
-              <C.ImageName>Perfil cartola 6,35 x 65 x 180 x 30 x 6000S</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
             <C.Image src="../Imagem/Produtos/TubosIndustriais/tuboin2.jpeg" />
-              <C.ImageName>Perfil cartola 6,35 x 65 x 180 x 30 x 6000S</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
             <C.Image src="../Imagem/Produtos/TubosIndustriais/Tubosin.jpeg" />
-              <C.ImageName>Perfil cartola 6,35 x 65 x 180 x 30 x 6000S</C.ImageName>
             </C.ImageWrapper>
           </C.Wrapper>
 
@@ -70,6 +67,7 @@ export const TubosIndustriais = () => {
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>
             </C.AccessButtonWrapper>
 
+            </C.ProductAlign>
     </C.Container>
     <Footer />
 

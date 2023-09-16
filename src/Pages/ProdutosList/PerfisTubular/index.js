@@ -33,7 +33,7 @@ export const PerfisTubular = () => {
 
         </C.Content>
         </C.Content>
-
+        <C.ProductAlign>
 
           <C.TitleWrapper>
             <C.Title>Perfis Tubular</C.Title>
@@ -42,17 +42,14 @@ export const PerfisTubular = () => {
           <C.Wrapper>
             <C.ImageWrapper>
               <C.Image src="./Imagem/Produtos/Tubular/TubularII.png" />
-              <C.ImageName>Tubular 4,75 x 200 x 200 x 7500</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
             <C.Image src="../Imagem/Produtos/Tubular/TubularIII.png" />
-              <C.ImageName>Tubular 4,75 x 250 x 80 x 8000</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
             <C.Image src="./Imagem/Produtos/Tubular/TubularIV.png" />
-              <C.ImageName>Tubular 390 x 400 x 8,00 x 7200</C.ImageName>
             </C.ImageWrapper>
           </C.Wrapper>
 
@@ -68,6 +65,7 @@ export const PerfisTubular = () => {
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>
             </C.AccessButtonWrapper>
             
+            </C.ProductAlign>
     </C.Container>
     <Footer />
 

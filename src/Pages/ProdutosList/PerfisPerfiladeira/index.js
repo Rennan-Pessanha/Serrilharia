@@ -34,6 +34,8 @@ export const PerfisDePerfiladeira = () => {
         </C.Content>
         </C.Content>
 
+        <C.ProductAlign>
+
 
           <C.TitleWrapper>
             <C.Title>Perfis de Perfiladeira</C.Title>
@@ -67,7 +69,7 @@ export const PerfisDePerfiladeira = () => {
           <C.AccessButtonWrapper>
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>
             </C.AccessButtonWrapper>
-
+</C.ProductAlign>
     </C.Container>
     <Footer />
 

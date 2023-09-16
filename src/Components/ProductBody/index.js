@@ -39,7 +39,7 @@ export const ProductBody = () => {
           </C.ProductContent>
 
           <C.ProductContent reversed>
-            <C.ProductImage src="./Imagem/Produtos-Homepage/perfil soldado com sapata furacao.jpg" alt="Outro Produto" />
+            <C.ProductImage src="./Imagem/Produtos-Homepage/conjunto 1.jpg" alt="Outro Produto" />
             <C.ProductInfo>
               <C.ProductTitle leftT>Perfil Soldado</C.ProductTitle>
               <p>Perfil Soldado</p>
@@ -48,7 +48,7 @@ export const ProductBody = () => {
           </C.ProductContent>
 
           <C.ProductContent>
-            <C.ProductImage src="./Imagem/Produtos-Homepage/Tubosin5.jpeg" alt="Produto" />
+            <C.ProductImage src="./Imagem/Produtos-Homepage/Tubos6.jpeg" alt="Produto" />
             <C.ProductInfo>
               <C.ProductTitle>Tubos Industriais</C.ProductTitle>
               <p>Descrição do Produto</p>

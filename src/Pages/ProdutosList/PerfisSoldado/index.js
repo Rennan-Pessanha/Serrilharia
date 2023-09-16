@@ -33,6 +33,7 @@ export const PerfilSoldado = () => {
 
         </C.Content>
         </C.Content>
+        <C.ProductAlign>
 
 
           <C.TitleWrapper>
@@ -42,17 +43,14 @@ export const PerfilSoldado = () => {
           <C.Wrapper>
             <C.ImageWrapper>
               <C.Image src="./Imagem/Produtos/Soldado/conjunto 1.jpg" />
-              <C.ImageName>Tubular 4,75 x 200 x 200 x 7500</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
             <C.Image src="./Imagem/Produtos/Soldado/soldado7.jpg" />
-              <C.ImageName>Tubular 4,75 x 250 x 80 x 8000</C.ImageName>
             </C.ImageWrapper>
 
             <C.ImageWrapper>
             <C.Image src="./Imagem/Produtos/Soldado/Soldado1.png" />
-              <C.ImageName>Tubular 390 x 400 x 8,00 x 7200</C.ImageName>
             </C.ImageWrapper>
           </C.Wrapper>
 
@@ -69,7 +67,7 @@ export const PerfilSoldado = () => {
           <C.AccessButtonWrapper>
               <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>
             </C.AccessButtonWrapper>
-            
+          </C.ProductAlign>
     </C.Container>
     <Footer />
 

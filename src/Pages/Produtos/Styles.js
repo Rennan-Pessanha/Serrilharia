@@ -20,6 +20,7 @@ padding-right: 60px;
 export const ContentWrapper = styled.div`
   width: 80%;
   margin-left: 5%;
+  margin-bottom: 5%;
 
   @media (max-width: 768px) {
     margin-left: -5%;

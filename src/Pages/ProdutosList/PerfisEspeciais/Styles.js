@@ -130,9 +130,13 @@ export const Navs = styled(Link)`
 
 export const ProductAlign = styled.div`
 display: block;
-margin-left: 13%;
+margin-left: 18%;
 margin-bottom: 5%;
 width: 1300px;
+
+@media (max-width: 1440px) {
+  margin-left: 2%;
+}
 
 @media (max-width: 768px) {
   margin-left: -5%;
