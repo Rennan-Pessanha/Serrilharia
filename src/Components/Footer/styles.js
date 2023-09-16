@@ -13,7 +13,7 @@ export const FooterPerfil = styled.div`
 export const FooterContentWrapper = styled.div`
   width: 60%;
   margin-left: 14%;
-  overflow: hidden;
+
 
   @media (max-width: 1400px) {
 
@@ -26,6 +26,7 @@ export const FooterContentWrapper = styled.div`
   }
 
   @media (max-width: 425px) {
+    width: 60%;
   }
 
   @media (max-width: 375px) {

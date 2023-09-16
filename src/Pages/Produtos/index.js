@@ -134,7 +134,7 @@ export const Produtos = () => {
         </C.CardWrapper>
 
         <C.TitleWrapper>
-          <C.Title> poliestireno expandido </C.Title>
+          <C.Title> poliestireno <br /> expandido </C.Title>
         </C.TitleWrapper>
 
              <C.CardWrapper>
