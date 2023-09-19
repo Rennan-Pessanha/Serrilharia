@@ -57,11 +57,8 @@ export const PerfisDePerfiladeira = () => {
 
         <C.TextWrapper>
           <C.Paragraph>
-          Os nossos "Perfis de Perfiladeira" são projetados para oferecer uma solução eficaz e eficiente na formação de diferentes tipos de perfis metálicos. Fabricados com precisão a partir de materiais de alta qualidade, esses perfisadeiras são projetados para atender às demandas de produção em larga escala e personalização de perfis metálicos.
 
-            <br /> <br />
-
-            As Perfiladeiras são conhecidas por sua capacidade de moldar metais em uma variedade de formas e tamanhos. Elas são essenciais em setores como a construção civil, fabricação de estruturas metálicas, sistemas de dutos e muito mais. Nossos Perfis de Perfiladeira são projetados para oferecer uma operação suave e consistente, garantindo alta qualidade e precisão em cada perfil produzido.
+          As perfiladeiras são conhecidas pela capacidade de confirmar em processo contínuo o aço em uma variedade de modelos, formas, comprimentos e espessuras, certamente uma de nossas muitas opções atenderá sua necessidade, diferente do que existe no mercado convencional nossa capacidade de comprimento é de 17,5 metros.
 
           </C.Paragraph>
           </C.TextWrapper>

@@ -55,9 +55,10 @@ export const PerfisTubular = () => {
 
           <C.TextWrapper>
           <C.Paragraph>
-          Os nossos "Perfis Tubulares" são projetados para oferecer versatilidade e resistência em uma variedade de aplicações. Fabricados com precisão a partir de materiais de alta qualidade, esses perfis apresentam uma seção transversal oca, tornando-os ideais para uma ampla gama de usos, desde estruturas de suporte até projetos de design arquitetônico.
-                    <br /> <br />
-          Os Perfis Tubulares são conhecidos por sua força e durabilidade, tornando-os uma escolha popular em setores como a construção civil, fabricação de móveis, indústria automobilística e muito mais. Sua seção transversal oca oferece uma excelente relação resistência-peso, o que os torna ideais para aplicações que exigem componentes estruturais leves, mas robustos.
+
+          Semelhantemente aos nossos perfis especiais, também São dobrados de chapa atendendo assim a necessidade de cada projeto.
+          Sua fabricação final termina com tubo com apenas uma abertura para solda, criando assim maior robustez bem como melhor desing, podendo serem fabricados com aço comercial ou classificado, respeitando resistência solicitada pelo projeto, sendo diferenciado pela gama de possibilidades com seus diversos comprimentos e espessuras.
+
           </C.Paragraph>
           </C.TextWrapper>
 

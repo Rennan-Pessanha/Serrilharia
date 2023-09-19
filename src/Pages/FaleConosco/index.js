@@ -111,7 +111,11 @@ export const FaleConosco = () => {
                 </C.FormGroup>
 
                 <C.Button type="submit">Enviar</C.Button>
+                <C.WhatsAppIcon href="#">
+    <C.WhatsAppImage src={'./Imagem/Zap.svg'} alt="WhatsApp" />
+  </C.WhatsAppIcon>
             </C.Form>
+
     </C.FormWrapper>
 
         </C.FormContent>

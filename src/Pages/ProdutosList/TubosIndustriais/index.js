@@ -55,11 +55,7 @@ export const TubosIndustriais = () => {
 
         <C.TextWrapper>
           <C.Paragraph>
-          Os nossos "Tubos Industriais" são peças essenciais em uma ampla variedade de aplicações industriais, desde sistemas de transporte de fluidos até estruturas de suporte em ambientes industriais. Fabricados com precisão a partir de materiais de alta qualidade, esses tubos são projetados para oferecer desempenho confiável e durabilidade excepcional.
-
-            <br /> <br />
-
-        Os Tubos Industriais são conhecidos por sua resistência e versatilidade, tornando-os ideais para uso em setores como petroquímica, construção naval, indústria química, sistemas de aquecimento e resfriamento, entre outros. Sua capacidade de transportar uma variedade de fluidos, incluindo líquidos, gases e produtos químicos, os torna essenciais em muitos processos industriais.
+            
           </C.Paragraph>
           </C.TextWrapper>
           

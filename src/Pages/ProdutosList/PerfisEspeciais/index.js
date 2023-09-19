@@ -56,11 +56,10 @@ export const PerfisEspeciais = () => {
 
         <C.TextWrapper>
           <C.Paragraph>
-          Os nossos "Perfis Especiais" são produtos de aço customizados que são projetados para atender às necessidades específicas dos nossos clientes. Eles são fabricados com precisão a partir de materiais de alta qualidade e são conhecidos pela sua versatilidade e capacidade de atender a uma ampla gama de aplicações industriais e estruturais.
 
-            <br /> <br />
+          Nossos perfis são conformados a frio, a partir de blanks de aço, sendo material classificado ou não.
+Com equipamentos de ponta, torna possível atender com excelência em qualidade a necessidade de cada cliente / projeto, essa nossa expertise em fabricação vem garantindo ao longo dos anos satisfação absoluta nos mais respeitados seguimentos, seja ele engenharia, arquitetura, maquinário, estruturista.
 
-          O que torna os Perfis Especiais verdadeiramente especiais é a sua capacidade de serem personalizados de acordo com as especificações únicas de cada projeto. Isso significa que podemos criar perfis com diferentes formas, tamanhos, dimensões e características para atender às demandas específicas dos nossos clientes. Seja para projetos arquitetônicos complexos, maquinaria industrial ou estruturas de suporte, nossos Perfis Especiais podem ser adaptados para se encaixar perfeitamente.
           </C.Paragraph>
           </C.TextWrapper>
           

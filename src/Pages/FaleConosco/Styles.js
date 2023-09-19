@@ -120,6 +120,17 @@ export const FormWrapper = styled.div`
   }
 `;
 
+export const WhatsAppIcon = styled.a`
+  position: absolute;
+  bottom: 10px; /* Adjust this value for vertical position */
+  right: 10px; /* Adjust this value for horizontal position */
+`;
+
+export const WhatsAppImage = styled.img`
+  width: 40px; /* Adjust the size as needed */
+  height: 40px; /* Adjust the size as needed */
+`;
+
 export const Form = styled.form`
   display: grid;
   grid-template-columns: 1fr;
