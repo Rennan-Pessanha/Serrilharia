@@ -88,7 +88,7 @@ border-radius: 30px;
 
   @media (max-width: 769px) {
     margin: 5% auto;
-    padding: 20px;
+    padding: 30px;
   }
 
   @media (max-width: 384px) {
@@ -120,15 +120,25 @@ export const FormWrapper = styled.div`
   }
 `;
 
+export const WhatsAppWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adjust the top margin as needed */
+`;
+
 export const WhatsAppIcon = styled.a`
-  position: absolute;
-  bottom: 10px; /* Adjust this value for vertical position */
-  right: 10px; /* Adjust this value for horizontal position */
 `;
 
 export const WhatsAppImage = styled.img`
-  width: 40px; /* Adjust the size as needed */
-  height: 40px; /* Adjust the size as needed */
+  width: 40px; 
+  height: 40px; 
+`;
+
+export const WhatsAppText = styled.p`
+  color: #fff; 
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 400;
 `;
 
 export const Form = styled.form`
@@ -160,12 +170,22 @@ export const input = styled.input`
   height: 39px;
 `;
 
+export const TextArea = styled.textarea`
+  width: 100%;
+  height: 150px; 
+  padding: 8px; 
+  font-size: 16px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+`;
+
 export const Button = styled.button`
   background-color: #242424;
   color: #ffffff;
   width: 236px;
   height: 76px;
   font-family: Montserrat;
+  margin-left: 10%;
   font-size: 20px;
   font-weight: 400;
   padding: 10px 20px;
@@ -318,3 +338,4 @@ export const ContactListItem = styled.li`
     margin-left: 10px;
   }
 `;
+

@@ -81,23 +81,13 @@ export const FaleConosco = () => {
                 </C.FormGroup>
 
                 <C.FormGroup>
-                    <C.label htmlFor="email">Email:</C.label>
-                    <C.input type="email" id="email" />
-                </C.FormGroup>
-
-                <C.FormGroup>
-                    <C.label htmlFor="cidade">Cidade:</C.label>
-                    <C.input type="text" id="cidade" />
-                </C.FormGroup>
-
-                <C.FormGroup>
-                    <C.label htmlFor="cotacoes">Faça Cotações:</C.label>
-                    <C.input type="text" id="cotacoes" />
-                </C.FormGroup>
-
-                <C.FormGroup>
                     <C.label htmlFor="sobrenome">Sobrenome:</C.label>
                     <C.input type="text" id="sobrenome" />
+                </C.FormGroup>
+
+                <C.FormGroup>
+                    <C.label htmlFor="email">Email:</C.label>
+                    <C.input type="email" id="email" />
                 </C.FormGroup>
 
                 <C.FormGroup>
@@ -106,14 +96,28 @@ export const FaleConosco = () => {
                 </C.FormGroup>
 
                 <C.FormGroup>
+                    <C.label htmlFor="cidade">Cidade:</C.label>
+                    <C.input type="text" id="cidade" />
+                </C.FormGroup>
+
+                <C.FormGroup>
                     <C.label htmlFor="cep">CEP:</C.label>
                     <C.input type="text" id="cep" />
                 </C.FormGroup>
 
+                <C.FormGroup>
+                  <C.label htmlFor="cotacoes">Descreva seu pedido:</C.label>
+                  <C.TextArea id="cotacoes" />
+                </C.FormGroup>
+
                 <C.Button type="submit">Enviar</C.Button>
-                <C.WhatsAppIcon href="#">
-    <C.WhatsAppImage src={'./Imagem/Zap.svg'} alt="WhatsApp" />
-  </C.WhatsAppIcon>
+
+                <C.WhatsAppWrapper>
+                <C.WhatsAppText>Ou entre em contato por WhatsApp:</C.WhatsAppText>
+                <C.WhatsAppIcon href="https://wa.me/16991547295">
+                  <C.WhatsAppImage src={'./Imagem/Zap.svg'} alt="WhatsApp" />
+                </C.WhatsAppIcon>
+                </C.WhatsAppWrapper>
             </C.Form>
 
     </C.FormWrapper>
