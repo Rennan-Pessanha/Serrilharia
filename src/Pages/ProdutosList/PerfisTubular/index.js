@@ -63,7 +63,7 @@ export const PerfisTubular = () => {
           </C.TextWrapper>
 
           <C.AccessButtonWrapper>
-              <C.AccessButton to="/FaleConosco">COMPRAR</C.AccessButton>
+              <C.AccessButton to="/FaleConosco">Consultar</C.AccessButton>
             </C.AccessButtonWrapper>
             
             </C.ProductAlign>
