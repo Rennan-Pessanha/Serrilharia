@@ -9,7 +9,6 @@ export const FaleConosco = () => {
         email: "",
         cidade: "",
         cotacoes: "",
-        sobrenome: "",
         telefone: "",
         cep: "",
         mensagem: "" // Adicione um campo para a mensagem
@@ -80,10 +79,6 @@ export const FaleConosco = () => {
                     <C.input type="text" id="nome" />
                 </C.FormGroup>
 
-                <C.FormGroup>
-                    <C.label htmlFor="sobrenome">Sobrenome:</C.label>
-                    <C.input type="text" id="sobrenome" />
-                </C.FormGroup>
 
                 <C.FormGroup>
                     <C.label htmlFor="email">Email:</C.label>

@@ -61,7 +61,25 @@ export const ProductBody = () => {
             <C.ProductInfo>
               <C.ProductTitle leftT>Perfil Laminado</C.ProductTitle>
               <p>Perfil Laminado</p>
-<C.AccessButton left to="/Laminado">Acessar</C.AccessButton>
+            <C.AccessButton left to="/Laminado">Acessar</C.AccessButton>
+            </C.ProductInfo>
+          </C.ProductContent>
+
+          <C.ProductContent>
+            <C.ProductImage src="./Imagem/Produtos-Homepage/Telha2.jpeg" alt="Produto" />
+            <C.ProductInfo>
+              <C.ProductTitle>Telhas</C.ProductTitle>
+              <p>Descrição do Produto</p>
+              <C.AccessButton to="/Telhas">Acessar</C.AccessButton>
+            </C.ProductInfo>
+          </C.ProductContent>
+
+          <C.ProductContent reversed>
+            <C.ProductImage src="./Imagem/Produtos-Homepage/Parafusos.jfif" alt="Outro Produto" />
+            <C.ProductInfo>
+              <C.ProductTitle leftT>Parafusos</C.ProductTitle>
+              <p>Perfil Laminado</p>
+            <C.AccessButton left to="/Parafusos">Acessar</C.AccessButton>
             </C.ProductInfo>
           </C.ProductContent>
 

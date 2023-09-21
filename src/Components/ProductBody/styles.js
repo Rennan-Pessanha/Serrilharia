@@ -72,7 +72,8 @@ export const Title = styled.h1`
 `;
 
 export const ProductWrapper = styled.div`
-  margin-top: 8%;
+  margin-top: 0%;
+  margin-bottom: 3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

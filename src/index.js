@@ -12,6 +12,8 @@ import PerfisPerfiladeira from './Pages/ProdutosList/PerfisPerfiladeira';
 import PerfilSoldado from './Pages/ProdutosList/PerfisSoldado';
 import TubosIndustriais from './Pages/ProdutosList/TubosIndustriais';
 import Laminado from './Pages/ProdutosList/Laminado';
+import Telhas from './Pages/ProdutosList/Telhas';
+import Parafusos from './Pages/ProdutosList/Parafusos/Index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +30,8 @@ root.render(
       <Route path="/PerfilSoldado" element={ <PerfilSoldado />} />
       <Route path="/TubosIndustriais" element={ <TubosIndustriais />} />
       <Route path="/Laminado" element={ <Laminado />} />
+      <Route path="/Telhas" element={ <Telhas />} />
+      <Route path="/Parafusos" element={ <Parafusos />} />
     </Routes>
   </BrowserRouter>
 </React.StrictMode>,

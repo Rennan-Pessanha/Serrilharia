@@ -154,6 +154,7 @@ export const Produtos = () => {
         )}
             </C.CardWrapper>
 
+
     </C.ContentWrapper>
     </C.Container>
     <Footer />
