@@ -55,6 +55,10 @@ export const TubosIndustriais = () => {
 
         <C.TextWrapper>
           <C.Paragraph>
+
+          Nossos tubos industriais são fabricados com os mais altos padrões de qualidade e precisão. Utilizamos uma variedade de materiais, incluindo aço carbono, aço inoxidável, alumínio e plástico de alta resistência, para garantir que nossos tubos atendam às necessidades específicas de cada aplicação industrial.
+            <br />  <br />
+          Esses tubos são conhecidos por sua durabilidade e resistência, tornando-os ideais para ambientes desafiadores e condições rigorosas. Eles são utilizados em uma ampla gama de indústrias, desde petróleo e gás até alimentos e bebidas, construção civil, automobilística e muitas outras.
             
           </C.Paragraph>
           </C.TextWrapper>
