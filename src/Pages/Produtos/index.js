@@ -95,6 +95,8 @@ export const Produtos = () => {
         )}
         </C.CardWrapper>
 
+        
+
         <C.TitleWrapper>
           <C.Title> Perfis Especiais </C.Title>
         </C.TitleWrapper>
@@ -149,10 +151,91 @@ export const Produtos = () => {
         )}
 
         {renderCard(
-          './Imagem/Produtos/Isopor/isopor2.jpeg',
+          './Imagem/Produtos/Isopor/isopor3.jpeg',
           'Produto 3'
         )}
             </C.CardWrapper>
+
+            <C.TitleWrapper>
+          <C.Title> Parafusos </C.Title>
+        </C.TitleWrapper>
+
+      <C.CardWrapper>
+        {renderCard(
+          './Imagem/Produtos/Parafusos/Parafuso2.jpeg',
+          'Produto 1',
+        )}
+
+        {renderCard(
+          './Imagem/Produtos/Parafusos/Parafuso3.jpeg',
+          'Produto 2',
+        )}
+
+        {renderCard(
+          './Imagem/Produtos/Parafusos/Parafuso1.jpeg',
+          'Produto 3'
+        )}
+            </C.CardWrapper>
+
+            <C.TitleWrapper>
+          <C.Title> Perfil Laminado </C.Title>
+        </C.TitleWrapper>
+
+        <C.CardWrapper>
+        {renderCard(
+          './Imagem/Produtos/Laminado/Perfillaminado2.jpeg',
+          'Produto 1',
+        )}
+
+        {renderCard(
+          './Imagem/Produtos/Laminado/Perfillaminado1.jpeg',
+          'Produto 2',
+        )}
+
+        {renderCard(
+          './Imagem/Produtos/Laminado/perfillaminado3.jpeg',
+          'Produto 3',
+        )}
+        </C.CardWrapper>
+
+        <C.TitleWrapper>
+          <C.Title> Tubos Industriais </C.Title>
+        </C.TitleWrapper>
+
+        <C.CardWrapper>
+        {renderCard(
+          './Imagem/Produtos/TubosIndustriais/tubosin4.jpeg',
+          'Produto 1',
+        )}
+
+        {renderCard(
+          './Imagem/Produtos/TubosIndustriais/Tubo.jpeg',
+          'Produto 2',
+        )}
+
+        {renderCard(
+          './Imagem/Produtos/TubosIndustriais/tuboin2.jpeg',
+          'Produto 3',
+        )}
+        </C.CardWrapper>
+
+        <C.CardWrapper>
+        {renderCard(
+          './Imagem/Produtos/TubosIndustriais/Tubosin.jpeg',
+          'Produto 1',
+        )}
+
+        {renderCard(
+          './Imagem/Produtos/TubosIndustriais/Industriais.jpeg',
+          'Produto 2',
+        )}
+
+        {renderCard(
+          './Imagem/Produtos/TubosIndustriais/Tubos4.jpeg',
+          'Produto 3',
+        )}
+        </C.CardWrapper>
+
 
 
     </C.ContentWrapper>

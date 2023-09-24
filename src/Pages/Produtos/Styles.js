@@ -25,8 +25,6 @@ export const ContentWrapper = styled.div`
   @media (max-width: 768px) {
     margin-left: -5%;
   }
-
-
 `;
 
 export const TitleWrapper = styled.div`
@@ -82,7 +80,7 @@ export const Card = styled.div`
 
 export const CardImage = styled.img`
   width: 60%;
-  height: auto;
+  height: 200px;
   border: 6px solid #C2F0FF;
 
   @media (max-width: 768px) {
