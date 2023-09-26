@@ -101,7 +101,7 @@ export const FaleConosco = () => {
                 </C.FormGroup>
 
                 <C.FormGroup>
-                  <C.label htmlFor="cotacoes">Descreva seu pedido:</C.label>
+                  <C.label htmlFor="cotacoes">Faça sua consulta:</C.label>
                   <C.TextArea id="cotacoes" />
                 </C.FormGroup>
 
