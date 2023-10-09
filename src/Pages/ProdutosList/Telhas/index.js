@@ -46,7 +46,7 @@ export const Telhas = () => {
             </C.ImageWrapper>
 
             <C.ImageWrapper>
-            <C.Image src="./Imagem/Produtos/Telhas/Telha1.jpeg" />
+            <C.Image src="../Imagem/Produtos/Parafusos/Parafuso2.jpeg" />
             </C.ImageWrapper>
 
             <C.ImageWrapper>
