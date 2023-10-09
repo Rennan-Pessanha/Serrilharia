@@ -42,15 +42,15 @@ export const Telhas = () => {
 
           <C.Wrapper>
             <C.ImageWrapper>
-              <C.Image src="./Imagem/Produtos/Telhas/Telha2.jpeg" />
+              <C.Image src="./Imagem/Produtos/telhas/Telha2.jpeg" />
             </C.ImageWrapper>
 
             <C.ImageWrapper>
-            <C.Image src="../Imagem/Produtos/Parafusos/Parafuso2.jpeg" />
+            <C.Image src="./Imagem/Produtos/telhas/Telha1.jpeg" />
             </C.ImageWrapper>
 
             <C.ImageWrapper>
-            <C.Image src="./Imagem/Produtos/Telhas/Telha3.jpeg" />
+            <C.Image src="./Imagem/Produtos/telhas/Telha3.jpeg" />
             </C.ImageWrapper>
           </C.Wrapper>
 
