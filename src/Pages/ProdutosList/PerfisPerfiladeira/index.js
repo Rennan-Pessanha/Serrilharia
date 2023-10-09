@@ -58,7 +58,9 @@ export const PerfisDePerfiladeira = () => {
         <C.TextWrapper>
           <C.Paragraph>
 
-          As perfiladeiras são conhecidas pela capacidade de confirmar em processo contínuo o aço em uma variedade de modelos, formas, comprimentos e espessuras, certamente uma de nossas muitas opções atenderá sua necessidade, diferente do que existe no mercado convencional nossa capacidade de comprimento é de 17,5 metros.
+          A Perfilação Contínua é o processo que permite a fabricação de vários modelos de perfis, sendo eles com aço classificado ou não, permitindo assim maior praticidade na conformação e maior rapidez de produção.
+          <br /> <br />
+          Nos destacamos neste processo por conta de equipamentos de ponta, onde conseguimos produzir perfis desde 2,00 mm até 8,00mm , tendo suas bases até 300mm, válido para perfil U e perfil U Enrijecido com comprimento máximo até 17,5 MTS.
 
           </C.Paragraph>
           </C.TextWrapper>

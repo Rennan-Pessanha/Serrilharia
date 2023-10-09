@@ -59,7 +59,7 @@ export const Laminado = () => {
 
             <br /> <br />
 
-            Os Perfis Laminados são frequentemente utilizados na construção civil para criar estruturas robustas, como vigas em edifícios, pontes e estruturas industriais. Eles são projetados para suportar cargas pesadas e oferecer estabilidade a longo prazo. Além disso, a laminação a quente confere a esses perfis uma alta resistência à tração e flexão.
+            Os Perfis Laminados são frequentemente utilizados na construção civil para criar estruturas robustas, como vigas em edifícios, pontes e estruturas industriais. Eles são projetados para suportar cargas pesadas e oferecer estabilidade a longo prazo.
           </C.Paragraph>
           </C.TextWrapper>
           
