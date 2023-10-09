@@ -186,8 +186,12 @@ export const TitleWrapper = styled.div`
   }
 
   @media (max-width: 425px) {
-    margin-right: 40%;
+    margin-right: 60%;
   }
+
+  @media (max-width: 375px) {
+    margin-right: 30%;
+  
 `;
 
 export const Title = styled.h2`
@@ -228,6 +232,18 @@ export const Image = styled.img`
     max-width: 100%;
     margin-left: 6%;
   }
+
+  @media (max-width: 425px) {
+    width: 30%;
+    max-width: 100%;
+    margin-left: 10%;
+  }
+
+  @media (max-width: 375px) {
+    width: 50%;
+    max-width: 100%;
+    margin-left: 10%;
+  }
 `;
 
 export const ImageName = styled.p`
@@ -247,6 +263,11 @@ export const TextWrapper = styled.div`
 
   @media (max-width: 768px) {
     margin-left: 10%;
+  }
+
+    @media (max-width: 425px) { 
+    margin-left: 2%;
+    width: 30%;
   }
 
   @media (max-width: 384px) { 

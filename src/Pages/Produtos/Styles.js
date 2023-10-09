@@ -35,6 +35,11 @@ export const TitleWrapper = styled.div`
   @media (max-width: 768px) {
     margin-left: 2%;
   }
+
+  @media (max-width: 425px) {
+    margin-left: 5%;
+    width: 80%;
+  }
 `;
 
 export const Title = styled.h2`

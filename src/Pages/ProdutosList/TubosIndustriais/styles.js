@@ -186,8 +186,12 @@ export const TitleWrapper = styled.div`
   }
 
   @media (max-width: 425px) {
-    margin-right: 40%;
+    margin-right: 60%;
   }
+
+  @media (max-width: 375px) {
+    margin-right: 30%;
+  
 `;
 
 export const Title = styled.h2`
@@ -218,8 +222,8 @@ export const Image = styled.img`
   width: 100%;
   max-width: 350px;
   border: 6px solid #C2F0FF;
-  height: 350px;
-  margin-left: 30%;
+  height: 300px;
+  margin-left: 5%;
   margin-right: 20%;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
@@ -227,6 +231,18 @@ export const Image = styled.img`
     width: 50%;
     max-width: 100%;
     margin-left: 6%;
+  }
+
+  @media (max-width: 425px) {
+    width: 30%;
+    max-width: 100%;
+    margin-left: 10%;
+  }
+
+  @media (max-width: 375px) {
+    width: 50%;
+    max-width: 100%;
+    margin-left: 10%;
   }
 `;
 
@@ -247,6 +263,11 @@ export const TextWrapper = styled.div`
 
   @media (max-width: 768px) {
     margin-left: 10%;
+  }
+
+    @media (max-width: 425px) { 
+    margin-left: 2%;
+    width: 30%;
   }
 
   @media (max-width: 384px) { 
