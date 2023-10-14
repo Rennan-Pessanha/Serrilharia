@@ -41,8 +41,16 @@ export const Logo = styled.img`
   margin-top: 12px;
 
   @media (max-width: 768px) {
-    margin-left: -10%;
+    margin-left: -60%;
     margin-top: 20px;
+  }
+
+  @media (max-width: 600px) {
+    margin-left: -55%;
+  }
+
+  @media (max-width: 425px) {
+    margin-left: -38%;
   }
 `;
 
@@ -55,7 +63,12 @@ export const NavContent = styled.div`
 
   @media (max-width: 768px) {
     margin-bottom: 90px;
-    margin-left: -9%;
+    margin-left: -30%;
+  }
+
+  @media (max-width: 600px) {
+    margin-bottom: 90px;
+    margin-left: -30%;
   }
 
   @media (max-width: 425px) {
@@ -185,13 +198,26 @@ export const TitleWrapper = styled.div`
     margin-right: 30%;
   }
 
+  @media (max-width: 600px) {
+    margin-right: 47%;
+  }
+
   @media (max-width: 425px) {
     margin-right: 60%;
   }
 
+  @media (max-width: 384px) {
+    margin-right: 45%;
+  }
+
   @media (max-width: 375px) {
-    margin-right: 30%;
-  
+    margin-right: 40%;
+  }
+
+  @media (max-width: 320px) {
+    margin-right: 50%;
+  }
+
 `;
 
 export const Title = styled.h2`
@@ -233,16 +259,34 @@ export const Image = styled.img`
     margin-left: 6%;
   }
 
+  @media (max-width: 600px) {
+    width: 30%;
+    max-width: 100%;
+    margin-left: 8%;
+  }
+
   @media (max-width: 425px) {
     width: 30%;
     max-width: 100%;
     margin-left: 10%;
   }
 
+  @media (max-width: 384px) {
+    width: 50%;
+    max-width: 100%;
+    margin-left: 7%;
+  }
+
   @media (max-width: 375px) {
     width: 50%;
     max-width: 100%;
     margin-left: 10%;
+  }
+
+  @media (max-width: 320px) {
+    width: 50%;
+    max-width: 100%;
+    margin-left: 5%;
   }
 `;
 
@@ -265,13 +309,19 @@ export const TextWrapper = styled.div`
     margin-left: 10%;
   }
 
+  @media (max-width: 600px) {
+    margin-left: 7%;
+    width: 40%;
+  }
+
     @media (max-width: 425px) { 
     margin-left: 2%;
     width: 30%;
   }
 
   @media (max-width: 384px) { 
-    margin-left: 3%;
+    margin-left: 6%;
+    width: 45%;
   }
 
   @media (max-width: 375px) {
@@ -314,12 +364,11 @@ export const AccessButtonWrapper = styled.div`
     margin-left: 20%;
   }
 
-
   @media (max-width: 860px) {
   }
 
   @media (max-width: 685px) {
-    margin-left: 22%;
+    margin-left: 16%;
   }
 
   @media (max-width: 480px) {
@@ -332,12 +381,17 @@ export const AccessButtonWrapper = styled.div`
     margin-left: 2%;
   }
 
+  @media (max-width: 384px) { 
+    margin-left: 6%;
+    width: 45%;
+  }
+
   @media (max-width: 375px) {
     margin-left: 10%;
   }
 
   @media (max-width: 320px) {
-    margin-left: 2%;
+    margin-left: 10%;
   }
 `;
 
