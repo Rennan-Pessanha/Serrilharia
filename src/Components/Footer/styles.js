@@ -25,6 +25,10 @@ export const FooterContentWrapper = styled.div`
   @media (max-width: 768px) {
   }
 
+  @media (max-width: 500px) {
+    width: 60%;
+  }
+
   @media (max-width: 425px) {
     width: 60%;
   }
@@ -155,6 +159,14 @@ export const CompanyDescription = styled.p`
   @media (max-width: 768px) {
     font-size: 24px;
     width: 600px;
+  }
+
+  @media (max-width: 600px) {
+    width: 400px;
+  }
+
+  @media (max-width: 500px) {
+    width: 300px;
   }
 
   @media (max-width: 425px) {

@@ -41,16 +41,29 @@ export const Logo = styled.img`
   margin-top: 12px;
 
   @media (max-width: 768px) {
-    margin-left: -60%;
+    margin-left: -80%;
     margin-top: 20px;
   }
 
   @media (max-width: 600px) {
-    margin-left: -55%;
+    margin-left: -50%;
+    margin-top: 20px;
   }
 
-  @media (max-width: 425px) {
-    margin-left: -38%;
+  @media (max-width: 384px) {
+    margin-left: -37%;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 375px) {
+    margin-left: -42%;
+    margin-top: 20px;
+  }
+
+
+  @media (max-width: 360px) {
+    margin-left: -35%;
+    margin-top: 20px;
   }
 `;
 
@@ -63,12 +76,12 @@ export const NavContent = styled.div`
 
   @media (max-width: 768px) {
     margin-bottom: 90px;
-    margin-left: -30%;
+    margin-left: -35%;
   }
 
   @media (max-width: 600px) {
-    margin-bottom: 90px;
-    margin-left: -30%;
+    margin-left: -29%;
+    margin-top: 20px;
   }
 
   @media (max-width: 425px) {
@@ -82,7 +95,7 @@ export const NavContent = styled.div`
   }
 
   @media (max-width: 384px) {
-    margin-left: 30%;
+    margin-left: 25%;
 
     flex-direction: column;
     display: flex;
@@ -91,8 +104,13 @@ export const NavContent = styled.div`
     margin-bottom: 190px;
   }
 
+
+  @media (max-width: 360px) {
+    margin-top: 20px;
+  }
+
   @media (max-width: 375px) {
-    margin-left: 35%;
+    margin-left: 26%;
 
     flex-direction: column;
     display: flex;
@@ -199,7 +217,12 @@ export const TitleWrapper = styled.div`
   }
 
   @media (max-width: 600px) {
-    margin-right: 47%;
+    margin-right: 50%; 
+  }
+
+  @media (max-width: 500px) { 
+    margin-left: 5%;
+    width: 30%;
   }
 
   @media (max-width: 425px) {
@@ -207,17 +230,18 @@ export const TitleWrapper = styled.div`
   }
 
   @media (max-width: 384px) {
-    margin-right: 45%;
+    width: 50%;
+    max-width: 100%;
+    margin-left: 5%;
   }
 
   @media (max-width: 375px) {
-    margin-right: 40%;
+    margin-right: 30%; 
   }
 
   @media (max-width: 320px) {
-    margin-right: 50%;
+    width: 40%;
   }
-
 `;
 
 export const Title = styled.h2`
@@ -236,11 +260,22 @@ export const ImageWrapper = styled.div`
     display: block;
   }
 
+  @media (max-width: 600px) {
+    margin-right: 30%; 
+  }
+
+  @media (max-width: 500px) {
+    margin-right: 35%; 
+  }
+
   @media (max-width: 425px) {
     display: block;
     margin-right: 20%;
     margin-left: 0%;
+  }
 
+  @media (max-width: 320px) {
+    margin-right: 30%; 
   }
 `;
 
@@ -259,10 +294,10 @@ export const Image = styled.img`
     margin-left: 6%;
   }
 
-  @media (max-width: 600px) {
-    width: 30%;
+  @media (max-width: 500px) {
+    width: 50%;
     max-width: 100%;
-    margin-left: 8%;
+    margin-left: 0%;
   }
 
   @media (max-width: 425px) {
@@ -274,19 +309,13 @@ export const Image = styled.img`
   @media (max-width: 384px) {
     width: 50%;
     max-width: 100%;
-    margin-left: 7%;
+    margin-left: 10%;
   }
 
   @media (max-width: 375px) {
     width: 50%;
     max-width: 100%;
     margin-left: 10%;
-  }
-
-  @media (max-width: 320px) {
-    width: 50%;
-    max-width: 100%;
-    margin-left: 5%;
   }
 `;
 
@@ -310,8 +339,13 @@ export const TextWrapper = styled.div`
   }
 
   @media (max-width: 600px) {
-    margin-left: 7%;
+    margin-left: 5%;
     width: 40%;
+  }
+
+  @media (max-width: 500px) { 
+    margin-left: 5%;
+    width: 30%;
   }
 
     @media (max-width: 425px) { 
@@ -320,8 +354,8 @@ export const TextWrapper = styled.div`
   }
 
   @media (max-width: 384px) { 
-    margin-left: 6%;
-    width: 45%;
+    margin-left: 3%;
+    width: 50%;
   }
 
   @media (max-width: 375px) {
@@ -333,8 +367,6 @@ export const TextWrapper = styled.div`
     margin-left: 7%;
     width: 40%;
   }
-
-
 `
 
 export const Paragraph = styled.p`
@@ -364,26 +396,21 @@ export const AccessButtonWrapper = styled.div`
     margin-left: 20%;
   }
 
+
   @media (max-width: 860px) {
   }
 
   @media (max-width: 685px) {
-    margin-left: 16%;
+    margin-left: 22%;
   }
 
-  @media (max-width: 480px) {
-
-    margin-left: 6%;
-
+  @media (max-width: 500px) { 
+    margin-left: 13%;
+    width: 30%;
   }
 
   @media (max-width: 410px) {
     margin-left: 2%;
-  }
-
-  @media (max-width: 384px) { 
-    margin-left: 6%;
-    width: 45%;
   }
 
   @media (max-width: 375px) {
@@ -411,6 +438,16 @@ export const AccessButton = styled(Link)`
 
   &:hover {
     background-color: #f0f0f0;
+  }
+
+  @media (max-width: 600px) { 
+    margin-left: -10%;
+    width: 50%;
+  }
+
+  @media (max-width: 384px) { 
+    margin-left: 5%;
+    width: 50%;
   }
 
   @media (max-width: 375px) {
