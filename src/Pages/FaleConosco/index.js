@@ -11,7 +11,6 @@ export const FaleConosco = () => {
         cotacoes: "",
         telefone: "",
         cep: "",
-        mensagem: "" // Adicione um campo para a mensagem
       });
     
       const handleChange = (e) => {
@@ -21,21 +20,34 @@ export const FaleConosco = () => {
     
       const handleSubmit = (e) => {
         e.preventDefault();
-        // Envie os dados do formulário para o back-end
-        fetch("/send-email", {
-          method: "POST",
-          headers: {
+
+    const dataToSend = {
+        nome: formData.nome,
+        email: formData.email,
+        assunto: "Consulta via Formulário", // Exemplo de assunto
+        pergunta: formData.cotacoes, // Usando 'cotacoes' como 'pergunta'
+    };
+
+    fetch("http://localhost:3000/FaleConosco", { // Ajuste a URL para a porta correta
+        method: "POST",
+        headers: {
             "Content-Type": "application/json"
-          },
-          body: JSON.stringify(formData)
-        })
-          .then((response) => response.json())
-          .then((data) => {
-            alert(data); // Exibe uma mensagem de sucesso ou erro
-          })
-          .catch((error) => {
-            console.error("Erro ao enviar o formulário:", error);
-          });
+        },
+        body: JSON.stringify(dataToSend)
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`Erro HTTP: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+        alert("Mensagem enviada com sucesso!");
+    })
+    .catch(error => {
+        console.error("Erro ao enviar o formulário:", error);
+        alert("Erro ao enviar a mensagem.");
+    });
       };
 
       
@@ -68,44 +80,48 @@ export const FaleConosco = () => {
         </C.Content>
 
         <C.FormContent>
-
                 <C.TitleWrapper>
                     <C.Title>Fale Conosco</C.Title>
                 </C.TitleWrapper>
-            <C.FormWrapper>
-            <C.Form>
-                <C.FormGroup>
-                    <C.label htmlFor="nome">Nome:</C.label>
-                    <C.input type="text" id="nome" />
-                </C.FormGroup>
+                <C.FormWrapper>
+                    <C.Form onSubmit={handleSubmit}>
+                        {/* Nome */}
+                        <C.FormGroup>
+                            <C.label htmlFor="nome">Nome:</C.label>
+                            <C.input type="text" name="nome" value={formData.nome} onChange={handleChange} />
+                        </C.FormGroup>
 
+                        {/* Email */}
+                        <C.FormGroup>
+                            <C.label htmlFor="email">Email:</C.label>
+                            <C.input type="email" name="email" value={formData.email} onChange={handleChange} />
+                        </C.FormGroup>
 
-                <C.FormGroup>
-                    <C.label htmlFor="email">Email:</C.label>
-                    <C.input type="email" id="email" />
-                </C.FormGroup>
+                        {/* Telefone */}
+                        <C.FormGroup>
+                            <C.label htmlFor="telefone">Telefone:</C.label>
+                            <C.input type="tel" name="telefone" value={formData.telefone} onChange={handleChange} />
+                        </C.FormGroup>
 
-                <C.FormGroup>
-                    <C.label htmlFor="telefone">Telefone:</C.label>
-                    <C.input type="tel" id="telefone" />
-                </C.FormGroup>
+                        {/* Cidade */}
+                        <C.FormGroup>
+                            <C.label htmlFor="cidade">Cidade:</C.label>
+                            <C.input type="text" name="cidade" value={formData.cidade} onChange={handleChange} />
+                        </C.FormGroup>
 
-                <C.FormGroup>
-                    <C.label htmlFor="cidade">Cidade:</C.label>
-                    <C.input type="text" id="cidade" />
-                </C.FormGroup>
+                        {/* CEP */}
+                        <C.FormGroup>
+                            <C.label htmlFor="cep">CEP:</C.label>
+                            <C.input type="text" name="cep" value={formData.cep} onChange={handleChange} />
+                        </C.FormGroup>
 
-                <C.FormGroup>
-                    <C.label htmlFor="cep">CEP:</C.label>
-                    <C.input type="text" id="cep" />
-                </C.FormGroup>
+                        {/* Consulta */}
+                        <C.FormGroup>
+                            <C.label htmlFor="cotacoes">Faça sua consulta:</C.label>
+                            <C.TextArea name="cotacoes" value={formData.cotacoes} onChange={handleChange} />
+                        </C.FormGroup>
 
-                <C.FormGroup>
-                  <C.label htmlFor="cotacoes">Faça sua consulta:</C.label>
-                  <C.TextArea id="cotacoes" />
-                </C.FormGroup>
-
-                <C.Button type="submit">Enviar</C.Button>
+                        <C.Button type="submit">Enviar</C.Button>
 
                 <C.WhatsAppWrapper>
                 <C.WhatsAppText>Ou entre em contato por WhatsApp:</C.WhatsAppText>

@@ -10,8 +10,8 @@ const transport = nodemailer.createTransport({
   port: 465,
   secure: true, // true for 465, false for other ports
   auth: {
-    user: 'centraldevagasvincitvagas@gmail.com',
-    pass: 'aiwu ogim zypj bajs'
+    user: 'panissasilas@gmail.com',
+    pass: 'xyyd rcbr ptau vnro'
   }
 });
 
@@ -20,8 +20,8 @@ app.post('/contato', (req, res) => {
 
   const sendEmail = () => {
     const mailOptions = {
-      from: 'centraldevagasvincitvagas@gmail.com',
-      to: 'centraldevagasvincitvagas@gmail.com',
+      from: 'panissasilas@gmail.com',
+      to: 'panissasilas@gmail.com',
       subject: `Assunto: ${assunto}`,
       text: `Nome: ${nome}\nEmail: ${email}\nPergunta: ${pergunta}`,
     };
